@@ -1,0 +1,59 @@
+name: Deploy to Partial
+
+on:
+  push:
+    branches: [ develop ]
+
+env:
+  DEBUG: true
+  
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-22.04
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18.19.0'
+
+    - name: Install Salesforce Cli & Plugins
+      run: |
+        echo "Installing Salesforce CLI"
+        npm install @salesforce/cli --global --force
+        echo "Installing Salesforce Delta"
+        echo 'y' | sfdx plugins:install sfdx-git-delta
+        echo "Installing Salesforce Scanner..."
+        # sfdx plugins:install @salesforce/sfdx-scanner
+      
+    - name: Deploy changes
+      run: |
+        mkdir temp
+        echo "##[debug]Execute Salesforce Delta"
+        sfdx sgd:source:delta --to $varToCommitHashId --from $varFromCommitHashId --output ./temp/delta/. -i ./delta.ignore --json
+            
+        echo "Salesforce Login Partial"
+        echo ${{ secrets.PARTIAL_PRIVATE_KEY_ }} > server.key
+        sf org login jwt --client-id "${{ secrets.PARTIAL_CLIENT_ID }}" --jwt-key-file server.key --username "${{ secrets.PARTIAL_USERNAME }}" --instance-url ${{ secrets.TEST_URL }} -a orgTarget --json
+        # sf project deploy start --manifest ./temp/delta/package/package.xml --pre-destructive-changes ../temp/delta/destructiveChanges/destructiveChanges.xml --ignore-warnings -o orgTarget -l RunLocalTests -w 180 --ignore-conflicts --json
+    
+    - name: Notification on Success
+      if: success()
+      uses: Co-qn/google-chat-notification@releases/v1
+      with:
+        name: '🎉 Nueva versión ${{ env.COMMIT_SHA }} disponible en Partial'
+        url: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
+        status: ${{ job.status }}
+
+    - name: Notification on Failure
+      if: failure()
+      uses: Co-qn/google-chat-notification@releases/v1
+      with:
+        name: '😞 Error al realizar deploy sober partial ${{ env.COMMIT_SHA }}'
+        url: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
+        status: ${{ job.status }}
