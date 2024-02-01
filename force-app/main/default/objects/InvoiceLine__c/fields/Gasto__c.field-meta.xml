@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gasto__c</fullName>
+    <externalId>false</externalId>
+    <label>Gasto</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alquileres</fullName>
+                <default>false</default>
+                <label>Alquileres</label>
+            </value>
+            <value>
+                <fullName>Catering</fullName>
+                <default>false</default>
+                <label>Catering</label>
+            </value>
+            <value>
+                <fullName>Compras</fullName>
+                <default>false</default>
+                <label>Compras</label>
+            </value>
+            <value>
+                <fullName>Equipos Informaticos</fullName>
+                <default>false</default>
+                <label>Equipos Informaticos</label>
+            </value>
+            <value>
+                <fullName>Formación</fullName>
+                <default>false</default>
+                <label>Formación</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Licencias</fullName>
+                <default>false</default>
+                <label>Licencias</label>
+            </value>
+            <value>
+                <fullName>NÓMINAS</fullName>
+                <default>false</default>
+                <label>NÓMINAS</label>
+            </value>
+            <value>
+                <fullName>Otros gastos</fullName>
+                <default>false</default>
+                <label>Otros gastos</label>
+            </value>
+            <value>
+                <fullName>Publicidad/Eventos</fullName>
+                <default>false</default>
+                <label>Publicidad/Eventos</label>
+            </value>
+            <value>
+                <fullName>RETENCIONES</fullName>
+                <default>false</default>
+                <label>RETENCIONES</label>
+            </value>
+            <value>
+                <fullName>SEGUROS SOCIALES</fullName>
+                <default>false</default>
+                <label>SEGUROS SOCIALES</label>
+            </value>
+            <value>
+                <fullName>Servicios de profesionales independientes</fullName>
+                <default>false</default>
+                <label>Servicios de profesionales independientes</label>
+            </value>
+            <value>
+                <fullName>Suministros</fullName>
+                <default>false</default>
+                <label>Suministros</label>
+            </value>
+            <value>
+                <fullName>Trabajos realizados por otras empresas</fullName>
+                <default>false</default>
+                <label>Trabajos realizados por otras empresas</label>
+            </value>
+            <value>
+                <fullName>Transportes y fletes</fullName>
+                <default>false</default>
+                <label>Transportes y fletes</label>
+            </value>
+            <value>
+                <fullName>Vouchers</fullName>
+                <default>false</default>
+                <label>Vouchers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

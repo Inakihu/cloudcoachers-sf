@@ -1,0 +1,19 @@
+<!--
+  @File Name          : output.component
+  @Description        : 
+  @Author             : IHU - ihernando@cloudcoachers.com
+  @Group              : 
+  @Last Modified By   : IHU - ihernando@cloudcoachers.com
+  @Last Modified On   : 3/16/2020, 2:11:30 PM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    3/16/2020   IHU - ihernando@cloudcoachers.com     Initial Version
+-->
+<apex:component controller="OutputController">
+    <apex:attribute name="value" type="Decimal" description="Number to show" assignTo="{!valueCtrl}" required="true"/>
+    <apex:attribute name="type" type="String" description="Type (Currency or Number)" assignTo="{!typeCtrl}" default="Number"/>
+    <apex:attribute name="decimalPlaces" type="Integer" description="Decimal Places" assignTo="{!decimalPlacesCtrl}" default="2"/>
+    <apex:attribute name="styleClass" type="String" description="style class for outputField" default=""/>
+    
+    <apex:outputField value="{!obj[fieldCustomSetting]}" styleClass="{!styleClass}"/>
+</apex:component>

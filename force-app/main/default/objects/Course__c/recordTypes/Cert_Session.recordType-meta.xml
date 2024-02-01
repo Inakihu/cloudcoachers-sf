@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cert_Session</fullName>
+    <active>true</active>
+    <description>Sesión de Certificación</description>
+    <label>Cert Session</label>
+    <picklistValues>
+        <picklist>Course_Subject__c</picklist>
+        <values>
+            <fullName>Marketing Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pardot Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Developer I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Cloud Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Cloud Implementation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Course_Type__c</picklist>
+        <values>
+            <fullName>Cert Session</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Virtual Training</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Schedule__c</picklist>
+        <values>
+            <fullName>10%3A00h - 14%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A00h - 18%2E45h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A30h - 18%3A30h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A30h - 19%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A30h - 19%3A15h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16%3A00h - 18%3A00h</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not assigned</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wordpress_Integration_Status__c</picklist>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resend</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

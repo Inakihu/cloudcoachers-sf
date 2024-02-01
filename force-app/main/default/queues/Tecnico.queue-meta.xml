@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Técnico</name>
+    <queueMembers>
+        <users>
+            <user>anmoruno@cloudcoachers.com</user>
+            <user>clisotto@cloudcoachers.com</user>
+            <user>jrubio@cloudcoachers.com</user>
+            <user>kduval@cloudcoachers.com</user>
+            <user>oriol@cloudcoachers.com</user>
+            <user>rpernas@cloudcoachers.com</user>
+            <user>jmurdiain@cloudcoachers.com</user>
+            <user>victor@cloudcoachers.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>pse__Missing_Timecard__c</sobjectType>
+    </queueSobject>
+</Queue>

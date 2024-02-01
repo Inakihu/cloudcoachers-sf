@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CC Basic Permissions</label>
+    <permissionSets>CCPSAExpenses</permissionSets>
+    <permissionSets>CC_Clicklink</permissionSets>
+    <permissionSets>CC_Org_Access</permissionSets>
+    <permissionSets>CC_PSA_Timecard_and_Expenses_Report</permissionSets>
+    <permissionSets>New_Mobile_Access</permissionSets>
+    <permissionSets>ffirule__ClickLinkExecution</permissionSets>
+    <permissionSets>pse__PSATimeandExpenseMobileExpense</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

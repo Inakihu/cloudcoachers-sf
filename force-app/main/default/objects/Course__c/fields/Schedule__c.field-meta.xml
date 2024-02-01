@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule__c</fullName>
+    <externalId>false</externalId>
+    <label>Schedule</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>9:00h - 12:00h</fullName>
+                <default>false</default>
+                <label>9:00h - 12:00h</label>
+            </value>
+            <value>
+                <fullName>9:00h - 13:00h</fullName>
+                <default>false</default>
+                <label>9:00h - 13:00h</label>
+            </value>
+            <value>
+                <fullName>9:00h - 14:00h</fullName>
+                <default>false</default>
+                <label>9:00h - 14:00h</label>
+            </value>
+            <value>
+                <fullName>9:00h - 15:00h</fullName>
+                <default>true</default>
+                <label>9:00h - 15:00h</label>
+            </value>
+            <value>
+                <fullName>9:00h - 16:00h</fullName>
+                <default>false</default>
+                <label>9:00h - 16:00h</label>
+            </value>
+            <value>
+                <fullName>9:00h - 17:00h</fullName>
+                <default>false</default>
+                <label>9:00h - 17:00h</label>
+            </value>
+            <value>
+                <fullName>9:00h - 18:00h</fullName>
+                <default>false</default>
+                <label>9:00h - 18:00h</label>
+            </value>
+            <value>
+                <fullName>10:00h - 14:00h</fullName>
+                <default>false</default>
+                <label>10:00h - 14:00h</label>
+            </value>
+            <value>
+                <fullName>10:00h - 15:30h</fullName>
+                <default>false</default>
+                <label>10:00h - 15:30h</label>
+            </value>
+            <value>
+                <fullName>10:00h - 14:30h</fullName>
+                <default>false</default>
+                <label>10:00h - 14:30h</label>
+            </value>
+            <value>
+                <fullName>13.00h - 16.00h</fullName>
+                <default>false</default>
+                <label>13.00h - 16.00h</label>
+            </value>
+            <value>
+                <fullName>14:00 - 18:00h</fullName>
+                <default>false</default>
+                <label>14:00 - 18:00h</label>
+            </value>
+            <value>
+                <fullName>14:00h - 20:00h</fullName>
+                <default>false</default>
+                <label>14:00h - 20:00h</label>
+            </value>
+            <value>
+                <fullName>14.30h - 18.30h</fullName>
+                <default>false</default>
+                <label>14.30h - 18.30h</label>
+            </value>
+            <value>
+                <fullName>15:00h - 18.45h</fullName>
+                <default>false</default>
+                <label>15:00h - 18.45h</label>
+            </value>
+            <value>
+                <fullName>15:00h - 19:00h</fullName>
+                <default>false</default>
+                <label>15:00h - 19:00h</label>
+            </value>
+            <value>
+                <fullName>15:00h - 20:00h</fullName>
+                <default>false</default>
+                <label>15:00h - 20:00h</label>
+            </value>
+            <value>
+                <fullName>15:00h - 21:00h</fullName>
+                <default>false</default>
+                <label>15:00h - 21:00h</label>
+            </value>
+            <value>
+                <fullName>15:30h - 18:30h</fullName>
+                <default>false</default>
+                <label>15:30h - 18:30h</label>
+            </value>
+            <value>
+                <fullName>15:30h - 19:00h</fullName>
+                <default>false</default>
+                <label>15:30h - 19:00h</label>
+            </value>
+            <value>
+                <fullName>15:30h - 19:15h</fullName>
+                <default>false</default>
+                <label>15:30h - 19:15h</label>
+            </value>
+            <value>
+                <fullName>16:00h - 18:00h</fullName>
+                <default>false</default>
+                <label>16:00h - 18:00h</label>
+            </value>
+            <value>
+                <fullName>16:00h - 19:00h</fullName>
+                <default>false</default>
+                <label>16:00h - 19:00h</label>
+            </value>
+            <value>
+                <fullName>16:00h - 20:00h</fullName>
+                <default>false</default>
+                <label>16:00h - 20:00h</label>
+            </value>
+            <value>
+                <fullName>16:30h - 20:30h</fullName>
+                <default>false</default>
+                <label>16:30h - 20:30h</label>
+            </value>
+            <value>
+                <fullName>17:00h - 19:00h</fullName>
+                <default>false</default>
+                <label>17:00h - 19:00h</label>
+            </value>
+            <value>
+                <fullName>17:00h - 20:00h</fullName>
+                <default>false</default>
+                <label>17:00h - 20:00h</label>
+            </value>
+            <value>
+                <fullName>17:00h - 20:30h</fullName>
+                <default>false</default>
+                <label>17:00h - 20:30h</label>
+            </value>
+            <value>
+                <fullName>17:00h - 21:00h</fullName>
+                <default>false</default>
+                <label>17:00h - 21:00h</label>
+            </value>
+            <value>
+                <fullName>17:00h - 22:00h</fullName>
+                <default>false</default>
+                <label>17:00h - 22:00h</label>
+            </value>
+            <value>
+                <fullName>17:30h - 21:00h</fullName>
+                <default>false</default>
+                <label>17:30h - 21:00h</label>
+            </value>
+            <value>
+                <fullName>18:00h - 22:00h</fullName>
+                <default>false</default>
+                <label>18:00h - 22:00h</label>
+            </value>
+            <value>
+                <fullName>19:00h a-22:00h</fullName>
+                <default>false</default>
+                <label>19:00h - 22:00h</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>L-J (8:30h-15:00h) / V (8:30-12:30)</fullName>
+                <default>false</default>
+                <label>L-J (8:30h-15:00h) / V (8:30-12:30)</label>
+            </value>
+            <value>
+                <fullName>L-J 18:00 a 20:30</fullName>
+                <default>false</default>
+                <label>L-J 18:00h a 20:30h</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

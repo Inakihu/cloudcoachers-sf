@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Formación para mi</fullName>
+        <default>false</default>
+        <label>Formación para mi</label>
+    </customValue>
+    <customValue>
+        <fullName>Formación para empleados</fullName>
+        <default>false</default>
+        <label>Formación para empleados</label>
+    </customValue>
+    <customValue>
+        <fullName>Selección de profesionales formados</fullName>
+        <default>false</default>
+        <label>Selección de profesionales formados</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultoría</fullName>
+        <default>false</default>
+        <label>Consultoría</label>
+    </customValue>
+    <customValue>
+        <fullName>Quiero trabajar con vosotros</fullName>
+        <default>false</default>
+        <label>Quiero trabajar con vosotros</label>
+    </customValue>
+    <masterLabel>General Interest</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instructor_Consultor__c</fullName>
+    <externalId>false</externalId>
+    <label>Instructor/Consultor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fernando Andrés</fullName>
+                <default>false</default>
+                <label>Fernando Andrés</label>
+            </value>
+            <value>
+                <fullName>María Arana</fullName>
+                <default>false</default>
+                <label>María Arana</label>
+            </value>
+            <value>
+                <fullName>Carlos Campillo</fullName>
+                <default>false</default>
+                <label>Carlos Campillo</label>
+            </value>
+            <value>
+                <fullName>Borja Chamorro</fullName>
+                <default>false</default>
+                <label>Borja Chamorro</label>
+            </value>
+            <value>
+                <fullName>Ander Eguiagaray</fullName>
+                <default>false</default>
+                <label>Ander Eguiagaray</label>
+            </value>
+            <value>
+                <fullName>Blanca Escalera</fullName>
+                <default>false</default>
+                <label>Blanca Escalera</label>
+            </value>
+            <value>
+                <fullName>Marco Esteban</fullName>
+                <default>false</default>
+                <label>Marco Esteban</label>
+            </value>
+            <value>
+                <fullName>Oriol Farras</fullName>
+                <default>false</default>
+                <label>Oriol Farras</label>
+            </value>
+            <value>
+                <fullName>Javier Fernandez</fullName>
+                <default>false</default>
+                <label>Javier Fernandez</label>
+            </value>
+            <value>
+                <fullName>Beltrán Gonzalez</fullName>
+                <default>false</default>
+                <label>Beltrán Gonzalez</label>
+            </value>
+            <value>
+                <fullName>Iñaki Hernando</fullName>
+                <default>false</default>
+                <label>Iñaki Hernando</label>
+            </value>
+            <value>
+                <fullName>Jesus Iglesias</fullName>
+                <default>false</default>
+                <label>Jesus Iglesias</label>
+            </value>
+            <value>
+                <fullName>Nuria M. Quiros</fullName>
+                <default>false</default>
+                <label>Nuria M. Quiros</label>
+            </value>
+            <value>
+                <fullName>Jesus Maldonado</fullName>
+                <default>false</default>
+                <label>Jesus Maldonado</label>
+            </value>
+            <value>
+                <fullName>Antonio Moruno</fullName>
+                <default>false</default>
+                <label>Antonio Moruno</label>
+            </value>
+            <value>
+                <fullName>Cristina Muñoz</fullName>
+                <default>false</default>
+                <label>Cristina Muñoz</label>
+            </value>
+            <value>
+                <fullName>Alfonso Ortega</fullName>
+                <default>false</default>
+                <label>Alfonso Ortega</label>
+            </value>
+            <value>
+                <fullName>Paula Quirós</fullName>
+                <default>false</default>
+                <label>Paula Quirós</label>
+            </value>
+            <value>
+                <fullName>Oihane San Martín</fullName>
+                <default>false</default>
+                <label>Oihane San Martín</label>
+            </value>
+            <value>
+                <fullName>Juani Urbano</fullName>
+                <default>false</default>
+                <label>Juani Urbano</label>
+            </value>
+            <value>
+                <fullName>Jose María Urdiain</fullName>
+                <default>false</default>
+                <label>Jose María Urdiain</label>
+            </value>
+            <value>
+                <fullName>Paco Martinez</fullName>
+                <default>false</default>
+                <label>Paco Martinez</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

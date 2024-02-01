@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Contents_Right_Column__c</fullName>
+    <description>Right column of the course content to display in Diploma</description>
+    <externalId>false</externalId>
+    <label>Course Contents Right Column</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>50</visibleLines>
+</CustomField>

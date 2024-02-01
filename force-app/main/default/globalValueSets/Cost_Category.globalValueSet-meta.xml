@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Coach</fullName>
+        <default>false</default>
+        <label>Coach</label>
+    </customValue>
+    <customValue>
+        <fullName>Voucher</fullName>
+        <default>false</default>
+        <label>Voucher</label>
+    </customValue>
+    <customValue>
+        <fullName>Catering</fullName>
+        <default>false</default>
+        <label>Catering</label>
+    </customValue>
+    <customValue>
+        <fullName>Classroom</fullName>
+        <default>false</default>
+        <label>Classroom</label>
+    </customValue>
+    <customValue>
+        <fullName>Hotel</fullName>
+        <default>false</default>
+        <label>Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Lunch/Dinner</fullName>
+        <default>false</default>
+        <label>Lunch/Dinner</label>
+    </customValue>
+    <customValue>
+        <fullName>Taxi</fullName>
+        <default>false</default>
+        <label>Taxi</label>
+    </customValue>
+    <customValue>
+        <fullName>Train Ticket</fullName>
+        <default>false</default>
+        <label>Train Ticket</label>
+    </customValue>
+    <customValue>
+        <fullName>Flight</fullName>
+        <default>false</default>
+        <label>Flight</label>
+    </customValue>
+    <customValue>
+        <fullName>Bus</fullName>
+        <default>false</default>
+        <label>Bus</label>
+    </customValue>
+    <customValue>
+        <fullName>Cart Rental</fullName>
+        <default>false</default>
+        <label>Cart Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>Fuel</fullName>
+        <default>false</default>
+        <label>Fuel</label>
+    </customValue>
+    <masterLabel>Cost Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Remotely_attendant_without_WebExLink</fullName>
+    <active>true</active>
+    <errorConditionFormula>Remotely__c &amp;&amp;  ISBLANK(Course__r.Webex__c) &amp;&amp;   ISPICKVAL(Status__c, &quot;Confirmed&quot;)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>You can&apos;t confirm an attendance if Course WebEx Link is blank.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+body, .tb_properties{font-family: Verdana, Geneva, sans-serif !important; font-size: 14px !important; color: #666B6D !important; line-height: 1 !important; padding: 0px !important; }.buttonstyles{font-family: Verdana, Geneva, sans-serif !important; font-size: 14px !important; color: #FFFFFF !important; padding: 10px !important; }h1{font-family: Verdana, Geneva, sans-serif !important; font-size: 22px !important; color: #202020 !important; line-height: 1 !important; }h2{font-family: Verdana, Geneva, sans-serif !important; font-size: 20px !important; color: #202020 !important; line-height: 1 !important; }h3{font-family: Verdana, Geneva, sans-serif !important; font-size: 18px !important; color: #202020 !important; line-height: 1 !important; }a:not(.buttonstyles){line-height: 1 !important; }.mobile-hidden{display: none !important; }.responsive-td {width: 100% !important; display: block !important; padding: 0 !important;}
+/* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+              body, table, td {
+                 font-family : Verdana, Geneva, sans-serif;
+                 line-height : 100%;
+                 font-size : 14px;
+                 color : #666B6D;
+              }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#EFEFEF" text="#808080" style="margin: 0px; -webkit-text-size-adjust:none;background-color : #EFEFEF; font-family : Verdana, Geneva, sans-serif; line-height : 100%; font-size : 14px; color : #666B6D; padding : 20px; ">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <table style="font-size : 14px; font-family : Verdana, Geneva, sans-serif; line-height : 100%; color : #666B6D; " class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td class="content_padding" style="border:0px;padding : 10px; ">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" style="border: 0px; background-color: transparent; min-width: 100%; " class="slot-styling"><tr><td style="padding: 0px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px 0px 5px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0"><tr><td align="left"><a style="font-weight:normal;color:#3DA2DB;text-decoration:none;line-height:100%;" href="http://www.cloudcoachers.com" title="Cloud Coachers" alias="logo" conversion="false"><img src="https://image.s1.sfmc-content.com/lib/fe5e15707c62057a7010/m/1/26e092c1-ea21-4c15-921c-8e50d017df7b.png" alt="Cloud Coachers" height="32" width="300" style="display: block; color: #3DA2DB; font-size: 30px; font-family:trebuchet ms,helvetica,sans-serif; text-align: left; padding: 0px; height: 32px; letter-spacing: 2px;"></a></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0"><tr><td align="center"><img src="https://image.s1.sfmc-content.com/lib/fe5e15707c62057a7010/m/1/7e63f8b4-b134-483d-a44a-64e1ba498680.png" alt="___________________________________________________________" height="7" width="601" style="color: #3DA2DB; display: block; padding: 15px 0px; text-align: center; width: 601px; border: 0px;"></td></tr></table>
+
+
+</td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; border-top: 0px; border-right: 0px; border-bottom: 1px solid transparent; border-left: 0px; " class="slot-styling"><tr><td style="padding: 10px 0px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><span style="font-family:Verdana, Geneva, sans-serif;line-height:100%;font-weight:bold;font-style:normal; font-size:17px; color:#3da2db;">&iexcl;Hola, {!Course_Attendance__c.Attendant_First_Name__c}!</span><br>
+<br>
+<span style="color:#666b6d; font-size:14px; font-family:verdana,geneva,sans-serif; line-height:21px;">Tu curso de {!Course_Attendance__c.Course_Name__c} est&aacute; a punto de comenzar y queremos que est&eacute;s preparad@. Te enviamos la documentaci&oacute;n que utilizar&eacute;is en clase para que te la descargues antes de empezar. </span></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><span style="color:#666b6d; font-size:14px; font-family:verdana,geneva,sans-serif; line-height:21px;">Saludos,<br>
+<br>
+<b>{!Course_Attendance__c.Course_Instructor_Name__c}</b><br>
+<i>Cloud Coach</i><br>
+<a href="mailto:{!Course_Attendance__c.Course_Instructor_Email__c}" style="color:#3DA2DB; text-decoration:none">{!Course_Attendance__c.Course_Instructor_Email__c}</a> </span></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" style="border: 0px solid transparent; background-color: transparent; min-width: 100%; " class="slot-styling"><tr><td style="padding: 10px 0px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" style="width: 45%; padding-right: 1.33333px;"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 9px 0px 0px; " class="stylingblock-content-wrapper camarker-inner"><hr color="#3da2db" size="1" align="center"></td></tr></table></td><td valign="top" style="width: 10%; padding-left: 0.666667px; padding-right: 0.666667px;"><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0"><tr><td align="center"><img data-assetid="472624" src="https://image.s1.sfmc-content.com/lib/fe5e15707c62057a7010/m/1/0847ac38-7ae3-491b-8428-de0a7b316e04.png" height="35" width="35" style="display: block; padding: 0px; text-align: center; height: 35px; width: 35px; border: 0px;"></td></tr></table></td></tr></table></td><td valign="top" style="width: 45%; padding-left: 1.33333px;"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 9px 0px 0px; " class="stylingblock-content-wrapper camarker-inner"><hr color="#3da2db" size="1" align="center"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="slot-styling"><tr><td style="padding: 0px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 5px 15px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+ <span style="font-size:14px; font-family:verdana,geneva,sans-serif; line-height:18px;">Si quieres estar informado de novedades, ofertas de cursos y que te invitemos a eventos, por favor <a href="https://go.cloudcoachers.com/preferencias?epc_hash=BKAoNpk7G3fAAfpXe3xFq5t09f2reDldjJOX1gPllp0" style="color:#3DA2DB; text-decoration:none">danos tu consentimiento</a>. </span></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 25px 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+ <span style="font-size:11px; font-family:verdana,geneva,sans-serif; line-height:16px;"><b>Aviso sobre Confidencialidad</b><br>
+ Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.<br>
+ Para m&aacute;s informaci&oacute;n sobre la LOPD de Cloud Coachers S.L., pulsa <a alias="" conversion="false" data-linkto="http://" href="https://www.cloudcoachers.com/politica-de-privacidad/" style="color:#3DA2DB;text-decoration:none;" title="">aqu&iacute;</a>.</span></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 20px 0px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" dir="rtl" style="width: 100%;"><tr><td valign="top" class="responsive-td" dir="ltr" style="width: 95%; padding-left: 0px;"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: #3CA2DB; border: 0px; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="right"><table cellpadding="0" cellspacing="0" align="right"><tr><td align="right"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="https://www.linkedin.com/company/cloud-coachers/" alias="linkedin follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/953ce0cf-e205-47e4-97e1-09ee03c2dab5.png" alt="LinkedIn" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="https://www.facebook.com/Cloudcoachers/" alias="facebook follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/7f9128b1-5e37-4682-bded-9ab99b2ce29b.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="https://twitter.com/Cloudcoachers" alias="twitter follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f1e53799-e6b9-49da-a534-c1aa59f5a978.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table></td><td valign="top" class="responsive-td" dir="ltr" style="width: 5%; padding-right: 0px;"><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper mobile-hidden"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper mobile-hidden camarker-inner"><table width="100%" cellspacing="0" cellpadding="0"><tr><td align="right"><img data-assetid="472620" src="https://image.s1.sfmc-content.com/lib/fe5e15707c62057a7010/m/1/4403bdac-1a9b-4ee6-bfb7-7d932f434f1d.png" height="39" width="350" style="display: block; padding: 0px; text-align: right; height: 39px; width: 350px; border: 0px;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

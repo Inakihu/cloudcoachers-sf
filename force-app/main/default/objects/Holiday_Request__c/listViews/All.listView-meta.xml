@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Annual_Holiday__c</columns>
+    <columns>Available_Days__c</columns>
+    <columns>Employe_Name__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Holiday_Req_Status__c</columns>
+    <columns>Name_Status__c</columns>
+    <columns>Not_Yet_Approved_Days__c</columns>
+    <columns>Rejected_Days__c</columns>
+    <columns>Requested_Days__c</columns>
+    <columns>CC_Resource_Request__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

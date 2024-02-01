@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Days__c</fullName>
+    <externalId>false</externalId>
+    <formula>Annual_Holiday__r.Available_Days__c</formula>
+    <inlineHelpText>This result comes from Total Holidays - Total Requested Approved Days. 
+Take in account that other pending holiday request may exist in parallel.</inlineHelpText>
+    <label>Available Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

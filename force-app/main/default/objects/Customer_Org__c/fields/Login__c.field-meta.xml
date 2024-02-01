@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Login__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (ISPICKVAL( Solution__c , &quot;Marketing Cloud&quot;),
+HYPERLINK (&quot;https://mc.exacttarget.com&quot;,&quot;mc.exacttarget.com&quot;, &quot;_blank&quot;), 
+
+IF (ISPICKVAL( Solution__c , &quot;Pardot&quot;),
+HYPERLINK (&quot;https://pi.pardot.com&quot;,&quot;pi.pardot.com&quot;, &quot;_blank&quot;), 
+
+IF (ISPICKVAL( Solution__c , &quot;Social Studio&quot;),
+HYPERLINK (&quot;https://socialstudio.radian6.com&quot;,&quot;socialstudio.radian6.com&quot;, &quot;_blank&quot;), 
+
+IF (ISPICKVAL( Solution__c , &quot;Social Studio Automate&quot;),
+HYPERLINK (&quot;https://rules.radian6.com&quot;,&quot;rules.radian6.com&quot;, &quot;_blank&quot;), 
+
+IF (ISPICKVAL( Solution__c , &quot;Salesforce Sandbox&quot;),
+HYPERLINK ( SUBSTITUTE(&quot;https://test.salesforce.com?un=&quot; &amp; Username__c &amp; &quot;&amp;pw=&quot; &amp; Password__c, &quot;+&quot;, &quot;%2B&quot;)   ,&quot;test.salesforce.com&quot;, &quot;_blank&quot;), 
+
+IF (ISPICKVAL( Solution__c , &quot;Salesforce Production&quot;),
+HYPERLINK (SUBSTITUTE(&quot;https://login.salesforce.com?un=&quot; &amp; Username__c &amp; &quot;&amp;pw=&quot; &amp; Password__c, &quot;+&quot;, &quot;%2B&quot;),&quot;login.salesforce.com&quot;, &quot;_blank&quot;), 
+
+IF (ISPICKVAL( Solution__c , &quot;Datorama&quot;),
+HYPERLINK (&quot;https://platform.datorama.com/&quot;,&quot;platform.datorama.com&quot;, &quot;_blank&quot;),
+
+&quot;nada&quot;))
+
+)
+
+)
+
+)
+
+)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Login</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

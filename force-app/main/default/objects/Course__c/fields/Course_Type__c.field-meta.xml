@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Course Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Calendar Course</fullName>
+                <default>false</default>
+                <label>Calendar Course</label>
+            </value>
+            <value>
+                <fullName>Customer Ad hoc</fullName>
+                <default>false</default>
+                <label>Customer Ad hoc</label>
+            </value>
+            <value>
+                <fullName>ISDI Trailhead</fullName>
+                <default>false</default>
+                <label>ISDI Trailhead</label>
+            </value>
+            <value>
+                <fullName>ISDI Hands-on</fullName>
+                <default>false</default>
+                <label>ISDI Hands-on</label>
+            </value>
+            <value>
+                <fullName>Cert Session</fullName>
+                <default>false</default>
+                <label>Cert Session</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

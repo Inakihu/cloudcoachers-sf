@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Project Subtype</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Implementation</fullName>
+                <default>false</default>
+                <label>Product Implementation</label>
+            </value>
+            <value>
+                <fullName>Managed Services</fullName>
+                <default>false</default>
+                <label>Managed Services</label>
+            </value>
+            <value>
+                <fullName>User Training</fullName>
+                <default>false</default>
+                <label>User Training</label>
+            </value>
+            <value>
+                <fullName>Advisory Services</fullName>
+                <default>false</default>
+                <label>Advisory Services</label>
+            </value>
+            <value>
+                <fullName>Red Account Resolution</fullName>
+                <default>false</default>
+                <label>Red Account Resolution</label>
+            </value>
+            <value>
+                <fullName>Ongoing Support</fullName>
+                <default>false</default>
+                <label>Ongoing Support</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Contrato marco (T&amp;M)</fullName>
+                <default>false</default>
+                <label>Contrato marco (T&amp;M)</label>
+            </value>
+            <value>
+                <fullName>FEE/suscripción</fullName>
+                <default>false</default>
+                <label>FEE/suscripción</label>
+            </value>
+            <value>
+                <fullName>Bolsa de horas</fullName>
+                <default>false</default>
+                <label>Bolsa de horas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

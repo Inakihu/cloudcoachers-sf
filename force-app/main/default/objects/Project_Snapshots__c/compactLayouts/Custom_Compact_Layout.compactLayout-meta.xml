@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Actual_Hours__c</fields>
+    <fields>Billable_Hours_External__c</fields>
+    <fields>Billable_Hours_Internal__c</fields>
+    <fields>Estimated_At_Completion__c</fields>
+    <fields>Estimated_Hours_at_Completion__c</fields>
+    <fields>Excluded_Hours__c</fields>
+    <fields>Hours_Cut_Off_Date__c</fields>
+    <fields>Hours_Exclude_from_Billing__c</fields>
+    <fields>Percentage_Used__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

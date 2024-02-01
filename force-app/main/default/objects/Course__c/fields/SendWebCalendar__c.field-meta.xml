@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SendWebCalendar__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL(Course_Type__c, &apos;Calendar Course&apos;) || NOT(ISBLANK(Event_Id_Wordpress__c))</formula>
+    <label>Send Web Calendar</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

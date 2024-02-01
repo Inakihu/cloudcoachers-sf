@@ -1,0 +1,6 @@
+Hola {!Opportunity.OwnerFullName}
+
+Fernando ha aprobado el descuento para esta oportunidad
+{!Opportunity.Link}
+
+Un saludo

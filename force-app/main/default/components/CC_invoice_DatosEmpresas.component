@@ -1,0 +1,35 @@
+<!--
+  @File Name          : CC_invoice_DatosEmpresas.component
+  @Description        : 
+  @Author             : TXU - jmurdiain@cloudcoachers.com
+  @Group              : 
+  @Last Modified By   : TXU - jmurdiain@cloudcoachers.com
+  @Last Modified On   : 3/23/2020, 10:38:01 AM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    2/26/2020   TXU - jmurdiain@cloudcoachers.com     Initial Version
+-->
+<apex:component controller="CC_InvoiceDocument_CTR">
+    <apex:attribute name="invoiceId" type="Id" assignTo="{!idInvoice}" description=""/>
+    <table class="tableEmpresas" >
+        <tbody>
+            <tr style="height:39.5mm;">
+                <td style="width:50%;vertical-align:top;">
+                    <h3><apex:outputField value="{!cloudCoachers.Name}"/> </h3>
+                    <apex:outputField value="{!ccData.CC_CIF__c}"/><br></br>
+                    <apex:outputField value="{!cloudCoachers.Street}"/><br></br>
+                    <apex:outputField value="{!cloudCoachers.State}"/>&nbsp;<apex:outputField value="{!cloudCoachers.PostalCode}"/> <br></br>
+                    <apex:outputField value="{!cloudCoachers.Country}"/> <br></br>
+                    <apex:outputField value="{!ccData.CC_Web__c}"/>
+                </td>
+                <td style="width:50%;vertical-align:top;">
+                    <h3><apex:outputField value="{!invoice.AccountId__r.Business_Name__c}"/></h3>
+                    <apex:outputField value="{!invoice.VATNumber__c}"/><br></br>
+                    <apex:outputField value="{!invoice.BillingStreet__c}"/><br></br>
+                    <apex:outputField value="{!invoice.BillingState__c}"/>&nbsp;<apex:outputField value="{!invoice.BillingPostalCode__c}"/><br></br>
+                    <apex:outputField value="{!invoice.BillingCountry__c}"/><br></br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</apex:component>

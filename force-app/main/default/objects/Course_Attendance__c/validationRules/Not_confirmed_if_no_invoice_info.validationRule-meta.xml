@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_confirmed_if_no_invoice_info</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISBLANK(  Amount_to_invoice__c  )  &amp;&amp;  ISBLANK(   Course_Opportunity__c )  )
+ &amp;&amp; 
+ ISPICKVAL( Status__c , &quot;Confirmed&quot;)</errorConditionFormula>
+    <errorDisplayField>Amount_to_invoice__c</errorDisplayField>
+    <errorMessage>You need to include invoice information to confirm an attendance</errorMessage>
+</ValidationRule>

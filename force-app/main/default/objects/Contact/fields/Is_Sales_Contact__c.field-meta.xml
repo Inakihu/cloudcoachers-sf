@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Sales_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to select the sales contacts for the account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select if this contact is the sales or commercial contact for this account.</inlineHelpText>
+    <label>Is Sales Contact</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

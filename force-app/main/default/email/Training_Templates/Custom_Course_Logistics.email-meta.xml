@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email with logistic details of Calendar Courses</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Course Logistics</name>
+    <style>none</style>
+    <subject>☁️ Información del Curso {!Course__c.Course_Product__c}</subject>
+    <textOnly>¡Hola, {!Contact.FirstName}!
+
+Te confirmo que el próximo {!Course__c.Start_Date__c}, en horario de {!Course__c.Schedule__c}, tendrá lugar el curso {!Course__c.Course_Product__c}  al que te has registrado.
+
+El curso se celebrará en nuestras oficinas situadas en Madrid.
+
+No olvides traerte un ordenador portátil  para poder realizar las prácticas que se irán haciendo en la formación.
+
+Cualquier comentario o consulta, no dudes en decirme.
+
+¡Muchísimas gracias!
+Saludos,
+
+{!Course_Attendance__c.Course_Instructor_Name__c}
+Cloud Coach
+{!Course_Attendance__c.Course_Instructor_Email__c}
+{!User.Phone}
+
+Dónde estamos
+
+Calle Matilde Landa 28, 28029, Madrid
+
+Metro Ventilla (Línea 9) - 7 minutos andando
+Metro Plaza de Castilla (Líneas 1, 9 y 10) - 13 minutos andando
+
+
+Cómo llegar
+
+Si quieres estar informado de novedades, ofertas de cursos y que te invitemos a eventos, por favor danos tu consentimiento.
+
+Aviso sobre Confidencialidad
+Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.
+Para más información sobre la LOPD de Cloud Coachers S.L., pulsa aquí.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

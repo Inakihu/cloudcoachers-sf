@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_confirmed_attendance_if_no_email</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( Attendant__r.Email )  &amp;&amp; 
+ (ISPICKVAL( Status__c , &quot;Confirmed&quot;)  || ISPICKVAL( Status__c , &quot;Confirmed, waiting for course&quot;))</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>You can&apos;t confirm an attendance if Contact email is blank.</errorMessage>
+</ValidationRule>

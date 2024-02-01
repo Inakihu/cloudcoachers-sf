@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orgs_Demo</fullName>
+    <columns>MemberEntity</columns>
+    <columns>Description</columns>
+    <columns>DisplayName</columns>
+    <columns>SsoStatus</columns>
+    <columns>MemberType</columns>
+    <columns>OrgStatus</columns>
+    <columns>OrgEdition</columns>
+    <columns>Instance</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OrgEdition</field>
+        <operation>equals</operation>
+        <value>0,1,2,4,6,7,9,10,11</value>
+    </filters>
+    <label>Orgs Demo</label>
+</ListView>

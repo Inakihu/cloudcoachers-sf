@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Invoiced_Course_Attendances</fullName>
+    <columns>Course__c</columns>
+    <columns>NAME</columns>
+    <columns>Attendant__c</columns>
+    <columns>Attendant_Company__c</columns>
+    <columns>Invoice_Sent__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Invoice_Sent__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Not Invoiced Course Attendances</label>
+</ListView>

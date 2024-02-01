@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Practice__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Course_Subject__c,
+&quot;Pardot Specialist&quot;, &quot;Pardot&quot;,
+&quot;Marketing Cloud Social&quot;, &quot;Social Studio&quot;,
+&quot;CPQ&quot; , &quot;Salesforce Core&quot;,
+&quot;Einstein Recommendations&quot;, &quot;Marketing Cloud&quot;,
+&quot;Ejercicio Práctico Salesforce&quot;, &quot;Salesforce Core&quot;,
+&quot;Financial Services Cloud&quot;, &quot;Salesforce Core&quot;,
+&quot;Heroku&quot;, &quot;Development&quot;,
+&quot;Lightning Web Component&quot;, &quot;Development&quot;,
+&quot;Marketing Cloud AMPscript&quot;, &quot;Marketing Cloud&quot;,
+&quot;Marketing Cloud Connect&quot;, &quot;Marketing Cloud&quot;,
+&quot;Marketing Cloud Consultant&quot;, &quot;Marketing Cloud&quot;,
+&quot;Marketing Cloud Developer&quot;, &quot;Development&quot;,
+&quot;Marketing Cloud Email&quot;, &quot;Marketing Cloud&quot;,
+&quot;Marketing Cloud Essentials&quot;, &quot;Marketing Cloud&quot;,
+&quot;Pardot Consultant&quot;, &quot;Pardot&quot;,
+&quot;Sales Cloud Implementation&quot;, &quot;Sales Cloud&quot;,
+&quot;Salesforce Administration&quot;, &quot;Platform&quot;,
+&quot;Salesforce Advanced Administration&quot;, &quot;Platform&quot;,
+&quot;Salesforce Field Service Lightning&quot;, &quot;Salesforce Core&quot;,
+&quot;Salesforce Platform App Builder&quot;, &quot;Development&quot;,
+&quot;Salesforce Platform Developer I&quot;, &quot;Development&quot;,
+&quot;Salesforce Platform Developer II&quot;, &quot;Development&quot;,
+&quot;Service Cloud Implementation&quot; , &quot;Service Cloud&quot;,
+&quot;Salesforce B2B Commerce Admin&quot;, &quot;Commerce&quot;,
+&quot;Salesforce B2B Commerce Dev&quot;, &quot;Commerce&quot;,
+
+&quot;All Practices&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Practice</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

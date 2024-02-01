@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template to send the assistant the logistic details of his training course.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Course Logistics</name>
+    <relatedEntityType>Course__c</relatedEntityType>
+    <style>none</style>
+    <subject>Cloud Coachers - Curso {!Course__c.Course_Subject__c}​</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Holiday_Compact_layout</fullName>
+    <fields>Name</fields>
+    <fields>Year__c</fields>
+    <fields>Total_Holidays__c</fields>
+    <fields>Approved_Days__c</fields>
+    <fields>Available_Days__c</fields>
+    <fields>Not_Yet_Approved_Days__c</fields>
+    <label>Annual Holiday Compact layout</label>
+</CompactLayout>

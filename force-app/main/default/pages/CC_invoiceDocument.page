@@ -1,0 +1,83 @@
+<!--
+  @File Name          : CC_invoiceDocument.page
+  @Description        : 
+  @Author             : TXU - jmurdiain@cloudcoachers.com
+  @Group              : 
+  @Last Modified By   : TXU - jmurdiain@cloudcoachers.com
+  @Last Modified On   : 3/17/2020, 4:46:14 PM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    2/26/2020   TXU - jmurdiain@cloudcoachers.com     Initial Version
+-->
+<apex:page standardController="Invoice__c" showHeader="false" sidebar="false" standardStylesheets="false" renderAs="PDF" applyHtmlTag="false" applyBodyTag="false">
+<head>
+    <style>
+        @page{
+            size: A4;
+            margin-top: 0cm;
+            margin-left: 0mm;
+            margin-right: 0mm;
+            margin-bottom: 12.5mm;
+            padding-top: 0mm;
+            @bottom-center{
+                margin:0; 
+                padding:0;
+                content:element(footer);
+                margin: 10pt 0 30pt 0;
+            }
+        }
+        body{
+            width: 21cm;
+            margin-left: 0cm;
+            margin-right: 0cm;
+            margin-top: 0cm;
+            margin-bottom: 0mm;
+            font-family: Helvetica,sans-serif;
+        }
+        div.footer {
+            font-size: 10px;
+            display: block;
+            padding: 5px;
+            position: running(footer);
+        }
+
+        .pagenumber:before {
+            content: counter(page);
+        }
+
+        .pagecount:before {
+            content: counter(pages);
+        }
+
+    </style>
+    <apex:stylesheet value="{!$Resource.CC_InvoiceCSS}"/>
+    <div class="lineaTop"><apex:image url="{!$Resource.InvoiceLineaTop}" styleClass="imagenLineaTop" />
+    </div><div class="footer">
+        <div style="text-align:center; margin:0; padding:0;">
+            <h3 style="margin:0; padding:0;">CLOUD COACHERS</h3>
+            Registro Mercantil de Madrid, Tomo 35.558, Folio <span class="pagenumber"/>, <!--of <span class="pagecount"/>-->Hoja número M-639.082, inscripción 1ª. C.I.F.: B-87682340
+        </div>
+    </div>
+</head>
+<body>
+    <div style="margin:10mm; height:240mm;">
+        <div style="height: 30mm;">
+            <c:CC_Invoice_Header invoiceId="{!Invoice__c.Id}"/>
+        </div>
+        <div style="height: 40mm;">
+            <c:CC_invoice_DatosEmpresas invoiceId="{!Invoice__c.Id}"/>
+        </div>
+        <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px; margin:2px;"></hr>
+        <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px; margin:2px;"></hr>
+        <div style="margin-bottom:10mm;">
+            <c:CC_Inovice_LoFacturado invoiceId="{!Invoice__c.Id}"/>
+        </div>
+        <!--<hr style="height:1px; background-color: #4bcee8; border:0px; margin:2px;"></hr>
+        <hr style="height:1px; background-color: #4bcee8; border:0px; margin:2px;"></hr>-->
+        <br></br>
+        <div style="width:100%; height:40mm">
+            <c:CC_Invoice_TotalFacturado invoiceId="{!Invoice__c.Id}"/>
+        </div>
+    </div>
+</body>
+</apex:page>

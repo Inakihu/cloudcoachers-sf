@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Salesforce Administration</fullName>
+        <default>false</default>
+        <label>Salesforce Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Sales Cloud</fullName>
+        <default>false</default>
+        <label>Salesforce Sales Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Service Cloud</fullName>
+        <default>false</default>
+        <label>Salesforce Service Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Developer</fullName>
+        <default>false</default>
+        <label>Salesforce Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Marketing Cloud</fullName>
+        <default>false</default>
+        <label>Salesforce Marketing Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Cloud Developer</fullName>
+        <default>false</default>
+        <label>Marketing Cloud Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Data Cloud (CDP)</fullName>
+        <default>false</default>
+        <label>Salesforce Data Cloud (CDP)</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Cloud Personalization</fullName>
+        <default>false</default>
+        <label>Marketing Cloud Personalization</label>
+    </customValue>
+    <customValue>
+        <fullName>Account Engagement (Pardot)</fullName>
+        <default>false</default>
+        <label>Account Engagement (Pardot)</label>
+    </customValue>
+    <customValue>
+        <fullName>LWC - Lightning Web Components</fullName>
+        <default>false</default>
+        <label>LWC - Lightning Web Components</label>
+    </customValue>
+    <customValue>
+        <fullName>Field Service Lightning</fullName>
+        <default>false</default>
+        <label>Field Service Lightning</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Cloud</fullName>
+        <default>false</default>
+        <label>Google Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Quiero ir a los dos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Quiero ir a los dos</label>
+    </customValue>
+    <customValue>
+        <fullName>Splunk</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Splunk</label>
+    </customValue>
+    <customValue>
+        <fullName>Sage Live</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sage Live</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Pardot</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Salesforce Pardot</label>
+    </customValue>
+    <masterLabel>Training of Interest</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

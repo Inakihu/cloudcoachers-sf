@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter15_Ene23</name>
+    <pageDevName>Newsletter15_Ene23</pageDevName>
+    <style>none</style>
+    <subject>☁ ¡Descubre las últimas novedades de Salesforce y mucho más!</subject>
+    <textOnly>**Te contamos las novedades de la nueva Release Spring &apos;23
+----------------------------------------------------
+
+Leer novedades Spring &apos;23 &lt; https://www.cloudcoachers.com/novedades-salesforce-winter-23-release/ &gt; 
+
+ &lt; https://www.cloudcoachers.com/propositos-de-cloud-coachers-para-2023/ &gt; 
+
+ &lt; https://go.cloudcoachers.com/SFReleaseSpring23 &gt; 
+
+Ir al post &lt; https://www.cloudcoachers.com/propositos-de-cloud-coachers-para-2023/ &gt; 
+
+Inscribirme &lt; https://go.cloudcoachers.com/SFReleaseSpring23 &gt; 
+
+¿Quieres asistir a uno de nuestros cursos sobre Salesforce?
+
+Descubre las próximas fechas.
+
+ &lt; https://www.cloudcoachers.com/calendario/lista/ &gt; 
+
+Si aún tienes dudas, esto es lo que dicen nuestro alumnos:
+
+[Image alt text: Facebook] &lt; https://www.facebook.com/Cloudcoachers/ &gt;  [Image alt text: Twitter]  &lt; https://twitter.com/cloudcoachers &gt;  [Image alt text: LinkedIn]  &lt; https://www.linkedin.com/company/cloud-coachers &gt; 
+
+Darme de Baja &lt;  {{{Unsubscribe}}}  &gt; 
+
+Gestionar mis preferencias &lt;  {{{EmailPreferenceCenter}}}  &gt; 
+
+© Cloud Coachers S.L. Loma de los Bailanderos 8, 28023, Madrid (España).
+
+Todos los derechos reservados.
+
+Este mensaje ha sido enviado a {{{Recipient.Email}}} por un sistema automático.
+
+Conoce nuestra política de privacidad &lt; https://www.cloudcoachers.com/politica-de-privacidad/ &gt; .
+
+Para contactar con Cloud Coachers puedes dirigirte a info@cloudcoachers.com &lt; info@cloudcoachers.com &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

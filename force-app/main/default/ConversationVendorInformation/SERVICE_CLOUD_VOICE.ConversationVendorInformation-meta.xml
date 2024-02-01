@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConversationVendorInfo xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentSSOSupported>false</agentSSOSupported>
+    <awsAccountKey>640679043381</awsAccountKey>
+    <awsRootEmail>service-voice@cloudcoachers.com</awsRootEmail>
+    <awsTenantVersion>1.1</awsTenantVersion>
+    <developerName>SERVICE_CLOUD_VOICE</developerName>
+    <einsteinConversationInsightsSupported>false</einsteinConversationInsightsSupported>
+    <intelligenceSupported>false</intelligenceSupported>
+    <isTaxCompliant>true</isTaxCompliant>
+    <keyProvisioningSupported>false</keyProvisioningSupported>
+    <masterLabel>Service Cloud Voice</masterLabel>
+    <namedCredentialSupported>false</namedCredentialSupported>
+    <partnerContactCenterListSupported>false</partnerContactCenterListSupported>
+    <partnerPhoneNumbersSupported>false</partnerPhoneNumbersSupported>
+    <partnerTransferDestinationsSupported>false</partnerTransferDestinationsSupported>
+    <queueManagementSupported>false</queueManagementSupported>
+    <universalCallRecordingAccessSupported>false</universalCallRecordingAccessSupported>
+    <userSyncingSupported>false</userSyncingSupported>
+    <vendorType>Amazon_Connect</vendorType>
+</ConversationVendorInfo>

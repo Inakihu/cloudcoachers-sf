@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template para promocionar Webinar Developer 1 Septiembre 2023</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Autoresponder_Master_URJC_23</name>
+    <pageDevName>Autoresponder_Master_URJC_231</pageDevName>
+    <style>none</style>
+    <subject>Únete a nuestro Webinar Salesforce Developer</subject>
+    <textOnly>¡Hola, {{{Recipient.FirstName}}}!
+
+Muchas gracias por tu interés en el Máster Customer Relationship Management (CRM) . En breve nos pondremos en contacto contigo para ampliarte los detalles de este programa. 
+
+Mientras te compartimos la información básica y el folleto &lt; https://go.cloudcoachers.com/l/713593/2023-07-25/21kybb/713593/1690280503WpQlADeD/M_ster_Intelligent_Marketing_y_Procesos_Comerciales_sobre_Plataformas_.pdf &gt; del curso:
+
+ - Fecha: desde el 8 de Enero de 2024 hasta el 14 de 29 de Junio de 2024.
+ - Horario: Viernes de 16:00 a 20:00 y Sábados de 9:00h a 14:00h
+ - Formato: presencial.
+
+Si tienes cualquier pregunta, por favor no dudes en contactar con nosotros enviando un email a marketing@cloudcoachers.com &lt; mailto:marketing@cloudcoachers.com &gt; .
+
+¡Muchas gracias!
+
+© Cloud Coachers S.L. Loma de los Bailanderos 8, 28023, Madrid (España).
+
+Todos los derechos reservados.
+
+Este mensaje ha sido enviado a {{{Recipient.Email}}} por un sistema automático.
+
+Conoce nuestra política de privacidad &lt; https://www.cloudcoachers.com/politica-de-privacidad/ &gt; .
+
+Para contactar con Cloud Coachers puedes dirigirte a marketing@cloudcoachers.com &lt; mailto:marketing@cloudcoachers.com &gt; .
+
+Darse de baja &lt;  {{{Unsubscribe}}}  &gt; | Centro de preferencias &lt;  {{{EmailPreferenceCenter}}}  &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

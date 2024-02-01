@@ -1,0 +1,20 @@
+Hola {{{Recipient.FirstName}}},<br />
+<br />
+Se le ha asignado el curso &#39;{{{Course__c.Course_Subject__c}}}&#39;:<br />
+Fecha de inicio:&nbsp;{{{Course__c.Start_Date__c}}}<br />
+Fecha de finalizaci&oacute;n:&nbsp;{{{Course__c.Ending_Date__c}}}<br />
+Estado actual:&nbsp;{{{Course__c.Status__c}}}<br />
+<br />
+Para ver mas detalles accede al siguiente vinculo:<br />
+<a href="https://cloudcoachers.lightning.force.com/lightning/r/Course__c/{{{Course__c.Id}}}/view">Ver detalles</a>
+
+<p><font size="2"><font size="2"><font size="2">Much&iacute;simas gracias,</font></font></font></p>
+
+<p><font size="2"><font size="2"><font size="2">Saludos.</font></font></font></p>
+
+<hr />
+<p><font size="2"><font size="2">Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.</font></font></p>
+
+<p><font size="2"><font size="2">Para m&aacute;s informaci&oacute;n sobre la LOPD de Cloud Coachers S.L.</font></font></p>
+
+<p><font size="2"><font size="2"><a href="http://www.cloudcoachers.com/lopd-cloud-coachers-s-l/">http://www.cloudcoachers.com/lopd-cloud-coachers-s-l/</a></font></font></p>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_to_invoice__c</fullName>
+    <description>Amount to invoice this student for this course</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please fill either Amount to invoice or Course Opportunity before confirming this Course Attendance.</inlineHelpText>
+    <label>Amount to invoice</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

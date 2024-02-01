@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email with Virtual Courses Logistics</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Virtual Course Logistics</name>
+    <style>none</style>
+    <subject>☁️ Información del Curso {!Course__c.Course_Subject__c}</subject>
+    <textOnly>¡Hola, {!Course_Attendance__c.Attendant_First_Name__c}!
+
+Te confirmo que el próximo {!Course__c.Start_Date__c}, en horario de {!Course__c.Schedule__c}, tendrá lugar el curso {!Course__c.Course_Product__c}  al que te has registrado.
+
+El curso se celebrará a través de Google Meet. Cuando llegue la hora puedes conectarte a través de este enlace:
+
+Conectarte
+
+Te recomendamos que tengas dos pantallas o un monitor grande dividido, para que puedas ver la pantalla del instructor a la vez que haces los ejercicios en tu equipo. Otra opción es usar una tablet para ver el Webex/Meet y hacer los ejercicios con tu ordenador.
+
+Si tienes cualquier problema no dudes en ponerte en contacto conmigo.
+
+¡Muchísimas gracias!
+Saludos,
+
+{!Course_Attendance__c.Course_Instructor_Name__c}
+Cloud Coach
+{!Course_Attendance__c.Course_Instructor_Email__c}
+{!User.Phone}
+
+Si quieres estar informado de novedades, ofertas de cursos y que te invitemos a eventos, por favor danos tu consentimiento.
+
+Aviso sobre Confidencialidad
+Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.
+Para más información sobre la LOPD de Cloud Coachers S.L., https://www.cloudcoachers.com/politica-de-privacidad/</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

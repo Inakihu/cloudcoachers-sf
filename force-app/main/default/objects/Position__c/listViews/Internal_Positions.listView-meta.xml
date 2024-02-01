@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Positions</fullName>
+    <columns>NAME</columns>
+    <columns>Funtional_Area__c</columns>
+    <columns>Close_Date__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Internal,Internship</value>
+    </filters>
+    <label>Internal Positions</label>
+</ListView>

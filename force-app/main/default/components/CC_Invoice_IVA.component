@@ -1,0 +1,26 @@
+<!--
+  @File Name          : CC_Invoice_IVA.component
+  @Description        : 
+  @Author             : TXU - jmurdiain@cloudcoachers.com
+  @Group              : 
+  @Last Modified By   : TXU - jmurdiain@cloudcoachers.com
+  @Last Modified On   : 3/17/2020, 4:46:29 PM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    3/11/2020   TXU - jmurdiain@cloudcoachers.com     Initial Version
+-->
+<apex:component controller="CC_InvoiceDocument_CTR">
+    <apex:attribute name="invoiceId" type="Id" assignTo="{!idInvoice}" description=""/>
+
+    <apex:repeat value="{!lstTaxes}" var="auxTax" id="repeatTaxes">
+
+        <div style="display:inline-block; width:50%; text-align:left;">
+            <apex:outputText value="{!$Label.CC_IVA}"/>
+            (<apex:outputText value="{!auxTax.tax}" escape="false"/>%):
+        </div>
+        <div style="display:inline-block;width:46%;">
+            <c:output value="{!auxTax.amount}" type="Currency"/>
+        </div>
+        <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px"></hr>
+    </apex:repeat>
+</apex:component>

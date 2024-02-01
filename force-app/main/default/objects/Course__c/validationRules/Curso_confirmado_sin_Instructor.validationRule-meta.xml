@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Curso_confirmado_sin_Instructor</fullName>
+    <active>true</active>
+    <description>No se puede confirmar un curso si no tiene Instructor asignado</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Confirmed&quot;)   &amp;&amp;   (  ISBLANK(  Instructor__c  ))</errorConditionFormula>
+    <errorDisplayField>Instructor__c</errorDisplayField>
+    <errorMessage>A course cannot be confirmed if no Instructor has been selected</errorMessage>
+</ValidationRule>

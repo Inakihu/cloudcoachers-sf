@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Curso_confirmado_sin_fecha_ni_tipo</fullName>
+    <active>true</active>
+    <description>No se puede confirmar un curso si no hay fechas ni tipo del curso</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Confirmed&quot;)   &amp;&amp;   (  ISBLANK( Start_Date__c )  ||  ISBLANK( Ending_Date__c ) ||     ISPICKVAL( Course_Type__c , &quot;&quot;)  )</errorConditionFormula>
+    <errorDisplayField>Start_Date__c</errorDisplayField>
+    <errorMessage>A course cannot be confirmed if no Dates or Type have been filled.</errorMessage>
+</ValidationRule>

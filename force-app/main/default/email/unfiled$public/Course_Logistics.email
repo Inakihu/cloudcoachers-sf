@@ -1,0 +1,42 @@
+<font face="Verdana, Helvetica, sans-serif" size="2">Hola<span style="font-family:verdana,geneva,sans-serif;"> </span></font><span style="font-family:verdana,geneva,sans-serif;">{!Contact.FirstName}<font size="2">,&nbsp;</font></span>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">Te confirmo que el pr&oacute;ximo&nbsp;</font><span style="font-family:verdana,geneva,sans-serif;">{!Course__c.Start_Date__c}<font size="2">, en horario 9.00h a 15.00h, tendr&aacute; lugar el&nbsp;curso<b>&nbsp;</b></font><b>{!Course__c.Course_Subject__c}​</b></span><font face="Verdana, Helvetica, sans-serif" size="2"><span style="font-family:verdana,geneva,sans-serif;"><b>&nbsp;</b>al que te has registr</span>ado.</font></p>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">El curso se celebrar&aacute; en nuestras oficinas situadas en la siguiente direcci&oacute;n:</font></p>
+
+<ul>
+	<li><font face="Verdana, Helvetica, sans-serif" size="2">c/Cercis&nbsp;24 (se entra por c/N&iacute;scalo 2)</font></li>
+	<li><font face="Verdana, Helvetica, sans-serif" size="2">28023 Madrid</font></li>
+</ul>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">En&nbsp;<a href="https://www.google.ad/maps/place/Calle+de+Cercis,+24,+28023+Madrid,+Espa%C3%B1a/@40.4671331,-3.7666792,17z/data=!3m1!4b1!4m5!3m4!1s0xd418714a61ad89b:0x5e9b6ac65048b47e!8m2!3d40.4671331!4d-3.7644905">este enlace</a>&nbsp;est&aacute; la ubicaci&oacute;n exacta.</font></p>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">Es un chalet en la zona de Aravaca. Se aparca bien en la&nbsp;calle&nbsp;y no hay que pagar S.E.R. (Servicio de Estacionamiento Regulado del Ayuntamiento de Madrid).</font></p>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">Si vienes en transporte p&uacute;blico, puedes venir en&nbsp;autob&uacute;s desde Moncloa en cualquiera de estas l&iacute;neas:</font></p>
+
+<ul>
+	<li><font face="Verdana, Helvetica, sans-serif" size="2">Bus 161, a 5 minutos andando aprox.</font></li>
+	<li><font face="Verdana, Helvetica, sans-serif" size="2">Bus 162, a 11 minutos andando aprox.</font></li>
+</ul>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">No olvides traerte un ordenador port&aacute;til para ir realizando las pr&aacute;cticas que se ir&aacute;n haciendo en la formaci&oacute;n.</font></p>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">Cualquier comentario o consulta, no dudes en decirme.</font></p>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">Much&iacute;simas gracias,&nbsp;<br />
+Nos vemos el lunes!!</font></p>
+
+<p><font face="Verdana, Helvetica, sans-serif" size="2">Saludos.</font></p>
+
+<p><span style="font-family:verdana,geneva,sans-serif;">{!User.Name}<br />
+<span style="color:#808080;"><font size="2">Cloud Coach</font><br />
+{!User.Phone}<br />
+{!User.Email}</span></span></p>
+
+<hr />
+<p><span style="font-size:11px;"><font face="Verdana, Helvetica, sans-serif">Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.</font></span></p>
+
+<p><span style="font-size:11px;"><font face="Verdana, Helvetica, sans-serif">Para m&aacute;s informaci&oacute;n sobre la LOPD de Cloud Coachers S.L:&nbsp;</font></span></p>
+
+<p><span style="font-size:11px;"><a href="http://www.cloudcoachers.com/lopd-cloud-coachers-s-l/"><font face="Verdana, Helvetica, sans-serif">http://www.cloudcoachers.com/lopd-cloud-coachers-s-l/</font></a></span></p>

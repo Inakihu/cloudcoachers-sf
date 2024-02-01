@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email para alertar a los instructores de que se le ha asignado a un curso.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Cloud_Coachers_Basic</letterhead>
+    <name>Course Assignment - Alert Instructor</name>
+    <style>formalLetter</style>
+    <subject>Se le ha asignado el curso {!Course__c.Course_Subject__c}</subject>
+    <textOnly>Hola {!Course__c.Instructor__c},
+
+Se te ha asignado el curso {!Course__c.Name} de {!Course__c.Course_Subject__c}:
+Fecha de inicio: {!Course__c.Start_Date__c}
+Fecha de finalización: {!Course__c.Ending_Date__c}
+Estado actual: {!Course__c.Status__c}
+
+Para ver mas detalles accede al siguiente vinculo:
+Ver detalles
+
+Por favor sigue el curso en Chatter para poder estar avisado de posibles cambios.
+
+Muchísimas gracias,
+
+Saludos
+
+
+Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.
+
+Para más información sobre la LOPD de Cloud Coachers S.L.
+https://www.cloudcoachers.com/politica-de-privacidad/</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.pse__Project_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Training</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Project type is Training</label>
+        </rules>
+    </decisions>
+    <description>PSA Training Project update</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>CASE( [pse__Proj__c].pse__Notes__c,
+&quot;Pardot Specialist&quot;, &quot;a6R1p000000U0fUEAS&quot;,
+&quot;Marketing Cloud Social&quot;, &quot;a6R1p000000U0fZEAS&quot;,
+&quot;CPQ&quot; , &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Einstein Recommendations&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Ejercicio Práctico Salesforce&quot;, &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Financial Services Cloud&quot;, &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Heroku&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Lightning Web Component&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Marketing Cloud AMPscript&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Connect&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Consultant&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Developer&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Email&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Essentials&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Pardot Consultant&quot;, &quot;a6R1p000000U0fUEAS&quot;,
+&quot;Sales Cloud Implementation&quot;, &quot;a6R1p0000004X8NEAU&quot;,
+&quot;Salesforce Administration&quot;, &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Salesforce Advanced Administration&quot;, &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Salesforce Field Service Lightning&quot;, &quot;a6R1p0000004X8SEAU&quot;,
+&quot;Salesforce Platform App Builder&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Salesforce Platform Developer I&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Salesforce Platform Developer II&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Service Cloud Implementation&quot; , &quot;a6R1p0000004X8SEAU&quot;,
+&quot;Salesforce B2B Commerce Admin&quot;, &quot;a6R1p0000004X8rEAE&quot;,
+&quot;Salesforce B2B Commerce Dev&quot;, &quot;a6R1p0000004X8rEAE&quot;,
+
+&quot;a6R1p000000U0fFEAS&quot;)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_2_myRule_1_A1_2135315978</name>
+        <dataType>String</dataType>
+        <expression>CASE( {!myVariable_current.pse__Notes__c},
+&quot;Pardot Specialist&quot;, &quot;a6R1p000000U0fUEAS&quot;,
+&quot;Marketing Cloud Social&quot;, &quot;a6R1p000000U0fZEAS&quot;,
+&quot;CPQ&quot; , &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Einstein Recommendations&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Ejercicio Práctico Salesforce&quot;, &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Financial Services Cloud&quot;, &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Heroku&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Lightning Web Component&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Marketing Cloud AMPscript&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Connect&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Consultant&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Developer&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Email&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Marketing Cloud Essentials&quot;, &quot;a6R1p000000U0fLEAS&quot;,
+&quot;Pardot Consultant&quot;, &quot;a6R1p000000U0fUEAS&quot;,
+&quot;Sales Cloud Implementation&quot;, &quot;a6R1p0000004X8NEAU&quot;,
+&quot;Salesforce Administration&quot;, &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Salesforce Advanced Administration&quot;, &quot;a6R1p0000004X8cEAE&quot;,
+&quot;Salesforce Field Service Lightning&quot;, &quot;a6R1p0000004X8SEAU&quot;,
+&quot;Salesforce Platform App Builder&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Salesforce Platform Developer I&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Salesforce Platform Developer II&quot;, &quot;a6R1p0000004X8IEAU&quot;,
+&quot;Service Cloud Implementation&quot; , &quot;a6R1p0000004X8SEAU&quot;,
+&quot;Salesforce B2B Commerce Admin&quot;, &quot;a6R1p0000004X8rEAE&quot;,
+&quot;Salesforce B2B Commerce Dev&quot;, &quot;a6R1p0000004X8rEAE&quot;,
+
+&quot;a6R1p000000U0fFEAS&quot;)</expression>
+    </formulas>
+    <interviewLabel>PSA_Training_Project_update-13_InterviewLabel</interviewLabel>
+    <label>PSA Training Project update</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>pse__Proj__c</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[pse__Proj__c]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Update Training Project</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Project Subtype</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Project_Subtype__c</field>
+            <value>
+                <stringValue>User Training</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Billing Type</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>pse__Billing_Type__c</field>
+            <value>
+                <stringValue>Fixed Price</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Practice</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>pse__Practice__c</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>pse__Practice__c</field>
+            <value>
+                <elementReference>formula_2_myRule_1_A1_2135315978</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Region</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>pse__Region__c</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>pse__Region__c</field>
+            <value>
+                <stringValue>a6u1p000001Z7coAAC</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Work Calendar</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>pse__Work_Calendar__c</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>pse__Work_Calendar__c</field>
+            <value>
+                <stringValue>a8B1p000000CfHsEAK</stringValue>
+            </value>
+        </inputAssignments>
+        <object>pse__Proj__c</object>
+    </recordUpdates>
+    <startElementReference>myDecision</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>pse__Proj__c</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>pse__Proj__c</objectType>
+    </variables>
+</Flow>

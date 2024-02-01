@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PricePerHour_in_Time_Material_Projects</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( Type__c ,&quot;Time and Material (T&amp;M)&quot;) &amp;&amp; ISBLANK( PricePerHour__c )</errorConditionFormula>
+    <errorDisplayField>PricePerHour__c</errorDisplayField>
+    <errorMessage>Price per hour in mandatory in T&amp;M Projects</errorMessage>
+</ValidationRule>

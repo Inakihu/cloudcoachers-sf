@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">Hola,</span></font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style=""><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">se ha creado un nuevo proyecto con el nombre&nbsp;</span></font><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><a href="https://cloudcoachers.lightning.force.com/{!Project__c.Id}">{!Project__c.Name}</a> para el cliente<a href="https://cloudcoachers.lightning.force.com/{!Project__c.AccountId__c}">&nbsp;</a></span><font face="arial"><a href="https://cloudcoachers.lightning.force.com/{!Project__c.AccountId__c}">{!Project__c.Account_Name_Formula__c}</a></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Saludos</div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Course_not_confirmed</fullName>
+        <description>Course not confirmed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>paula@cloudcoachers.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Course_not_confirmed_2</template>
+    </alerts>
+    <alerts>
+        <fullName>Env_o_de_Documentaci_n_del_curso</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Envío de Documentación del curso</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Course_Documentation</template>
+    </alerts>
+    <alerts>
+        <fullName>Env_o_de_preguntas</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Envío de preguntas</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Course_Exams</template>
+    </alerts>
+    <alerts>
+        <fullName>Logistic_Email_Custom_Office</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Logistic - Email Customer Office</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Logistic_Customer_Office</template>
+    </alerts>
+    <alerts>
+        <fullName>Logistic_info_email</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Logistic info email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Custom_Course_Logistics</template>
+    </alerts>
+    <alerts>
+        <fullName>Reminder_Custom_Office</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Reminder - Custom Office</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Reminder_Customer_Office</template>
+    </alerts>
+    <alerts>
+        <fullName>Reminder_Tomorrow_Course</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Reminder Tomorrow Course</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Reminder_CC_Madrid</template>
+    </alerts>
+    <alerts>
+        <fullName>Reminder_Tomorrow_Virtual_Course</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Reminder Tomorrow Virtual Course</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Reminder_virtual_course</template>
+    </alerts>
+    <alerts>
+        <fullName>Survey_Email_to_Course_Attendants</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Survey Email to Course Attendants</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Course_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>Virtual_Course_Logistics</fullName>
+        <ccEmails>training@cloudcoachers.com</ccEmails>
+        <description>Virtual Course Logistics</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Attendant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>hi@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Training_Templates/Virtual_Course_Logistics</template>
+    </alerts>
+</Workflow>

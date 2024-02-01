@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Reunión</fullName>
+                <default>false</default>
+                <label>Proyecto - Reunión</label>
+            </value>
+            <value>
+                <fullName>Diseño</fullName>
+                <default>false</default>
+                <label>Proyecto - Diseño</label>
+            </value>
+            <value>
+                <fullName>Documentación</fullName>
+                <default>false</default>
+                <label>Proyecto - Documentación</label>
+            </value>
+            <value>
+                <fullName>Configuración</fullName>
+                <default>false</default>
+                <label>Proyecto - Configuración</label>
+            </value>
+            <value>
+                <fullName>Desarrollo</fullName>
+                <default>false</default>
+                <label>Proyecto - Desarrollo</label>
+            </value>
+            <value>
+                <fullName>Pruebas</fullName>
+                <default>false</default>
+                <label>Proyecto - Pruebas</label>
+            </value>
+            <value>
+                <fullName>Mantenimiento</fullName>
+                <default>false</default>
+                <label>Proyecto -  Mantenimiento</label>
+            </value>
+            <value>
+                <fullName>Gestión de proyecto</fullName>
+                <default>false</default>
+                <label>Proyecto - Gestión de proyecto</label>
+            </value>
+            <value>
+                <fullName>Migración de datos</fullName>
+                <default>false</default>
+                <label>Proyecto - Migración de datos</label>
+            </value>
+            <value>
+                <fullName>Pase a producción</fullName>
+                <default>false</default>
+                <label>Proyecto - Pase a producción</label>
+            </value>
+            <value>
+                <fullName>Curso - Preparación del material</fullName>
+                <default>false</default>
+                <label>Curso - Preparación del material</label>
+            </value>
+            <value>
+                <fullName>Curso - Impartición</fullName>
+                <default>false</default>
+                <label>Curso - Impartición</label>
+            </value>
+            <value>
+                <fullName>Curso - Gestión de alumnos</fullName>
+                <default>false</default>
+                <label>Curso - Gestión de alumnos</label>
+            </value>
+            <value>
+                <fullName>Curso - Resolución de dudas</fullName>
+                <default>false</default>
+                <label>Curso - Resolución de dudas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

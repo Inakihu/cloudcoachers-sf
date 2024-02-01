@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendance__c</fullName>
+    <description>Rating field depending on number of Attendants to the course</description>
+    <externalId>false</externalId>
+    <formula>IF(  Number_of_Attendants__c  &gt; 5 , IMAGE(&quot;/servlet/servlet.FileDownload?file=0151p000005NslT&quot;,&quot;high&quot;), 
+
+( IF(Number_of_Attendants__c  &lt; 3, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151p000005Nsld&quot;,&quot;low&quot;), IMAGE(&quot;/servlet/servlet.FileDownload?file=0151p000005Nsli&quot;,&quot;med&quot;))) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Attendance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

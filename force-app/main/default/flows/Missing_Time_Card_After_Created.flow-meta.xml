@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Email_Primera_Notificaci_n</name>
+        <label>Email - Primera Notificación</label>
+        <locationX>50</locationX>
+        <locationY>288</locationY>
+        <actionName>pse__Missing_Timecard__c.Interno_Falta_reporte_horas_Notificaci_n_1</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pse__Missing_Timecard__c.Interno_Falta_reporte_horas_Notificaci_n_1</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Segunda_notificacion</name>
+        <label>Segunda notificación</label>
+        <locationX>314</locationX>
+        <locationY>408</locationY>
+        <actionName>pse__Missing_Timecard__c.Interno_Falta_reporte_horas_Notificaci_n_2</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pse__Missing_Timecard__c.Interno_Falta_reporte_horas_Notificaci_n_2</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Tercera_Notificacion</name>
+        <label>Tercera Notificación</label>
+        <locationX>842</locationX>
+        <locationY>408</locationY>
+        <actionName>pse__Missing_Timecard__c.Interno_Falta_reporte_horas_Notificaci_n_3</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pse__Missing_Timecard__c.Interno_Falta_reporte_horas_Notificaci_n_3</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Ha_reportado_ya</name>
+        <label>¿Ha reportado ya?</label>
+        <locationX>446</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.pse__Date_Timecard_Entered__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Segunda_notificacion</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_reportado</name>
+        <label>¿Has reportado?</label>
+        <locationX>974</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>No2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.pse__Date_Timecard_Entered__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tercera_Notificacion</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>Se ajusta para la tercera notificación al manager y socios llegue el viernes a las 13:30. Se corrige el error.</description>
+    <environments>Default</environments>
+    <interviewLabel>Missing Time Card - After Created {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Missing Time Card - After Created</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>386</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Email_Primera_Notificaci_n</targetReference>
+        </connector>
+        <object>pse__Missing_Timecard__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <name>No_hay_reporte_Segunda_notificaci_n</name>
+            <connector>
+                <targetReference>Ha_reportado_ya</targetReference>
+            </connector>
+            <label>No hay reporte - Segunda notificación</label>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>No_hay_reporte_Tercera_notificacion</name>
+            <connector>
+                <targetReference>Has_reportado</targetReference>
+            </connector>
+            <label>No hay reporte - Tercera notificación</label>
+            <offsetNumber>99</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Internal_Without_Desc_Friday</fullName>
+    <active>false</active>
+    <errorConditionFormula>BEGINS(pse__Project_Task__r.pse__Project__r.Name, &quot;Internal Management&quot;) &amp;&amp;  LEN(pse__Friday_Notes__c)&lt;5  &amp;&amp;  pse__Friday_Hours__c &gt; 0</errorConditionFormula>
+    <errorDisplayField>pse__Friday_Notes__c</errorDisplayField>
+    <errorMessage>debe indicar notas si reporta sobre Internal Management</errorMessage>
+</ValidationRule>

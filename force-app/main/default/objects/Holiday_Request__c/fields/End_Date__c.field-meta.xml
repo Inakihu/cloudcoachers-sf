@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>La primera vez que generes un Holiday Request, el registro se enviará automáticamente para aprobación a tu Manager. En caso de rechazo, si ajustas las fechas, deberás enviar para aprobación de forma manual.</inlineHelpText>
+    <label>End Date</label>
+    <required>true</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

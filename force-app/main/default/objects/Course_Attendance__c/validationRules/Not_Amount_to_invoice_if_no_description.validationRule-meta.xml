@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Amount_to_invoice_if_no_description</fullName>
+    <active>false</active>
+    <errorConditionFormula>Amount_to_invoice__c = 0 &amp;&amp; ISBLANK(Description__c)</errorConditionFormula>
+    <errorDisplayField>Amount_to_invoice__c</errorDisplayField>
+    <errorMessage>You can&apos;t indicate 0 in Amount To Invoice if Description is blank</errorMessage>
+</ValidationRule>

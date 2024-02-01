@@ -1,0 +1,7 @@
+{!Contact.FirstName},
+<BR><BR>
+
+<a href ="{!Course__c.Link}">Este curso</a> que empieza en 7 días no está confirmado. Recuerda que si no se confirma los alumnos no recibirán ninguna notificación. 
+<BR>
+<br>
+Your Awesome Admin.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_mandatory_fields_to_Close_Won</fullName>
+    <active>true</active>
+    <description>CIF/NIF, Business Name and Billing Address are mandatory in the Account record to Close Won an Opportunity</description>
+    <errorConditionFormula>AND (Account.RecordType.DeveloperName =&quot;Business_Account&quot;,ISPICKVAL( StageName , &quot;Closed Won&quot;), OR( Account.CIF_NIF__c = &quot;&quot;, Account.Business_Name__c = &quot;&quot;, Account.BillingCountry = &quot;&quot;, Account.BillingStreet = &quot;&quot;))</errorConditionFormula>
+    <errorMessage>CIF/NIF, Business Name and Billing Address are mandatory in the Account record to Close Won an Opportunity</errorMessage>
+</ValidationRule>

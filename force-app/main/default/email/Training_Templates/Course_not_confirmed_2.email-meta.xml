@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notificación de próximo curso no confirmado</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Course not confirmed 2</name>
+    <style>none</style>
+    <subject>Curso próximo no confirmado</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

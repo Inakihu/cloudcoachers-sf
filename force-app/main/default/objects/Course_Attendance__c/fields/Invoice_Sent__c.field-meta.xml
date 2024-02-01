@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoice_Sent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to manage if the course has been invoiced to each student.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check when the Invoice of this course has been sent to this student.</inlineHelpText>
+    <label>Invoice Sent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

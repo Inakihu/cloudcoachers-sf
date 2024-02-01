@@ -1,0 +1,64 @@
+<!--
+  @File Name          : CC_Inovice_LoFacturado.component
+  @Description        : 
+  @Author             : TXU - jmurdiain@cloudcoachers.com
+  @Group              : 
+  @Last Modified By   : IHU - ihernando@cloudcoachers.com
+  @Last Modified On   : 3/16/2020, 2:23:43 PM
+  @Modification Log   : 
+  Ver       Date            Author                  Modification
+  1.0    2/26/2020   TXU - jmurdiain@cloudcoachers.com     Initial Version
+-->
+<apex:component controller="CC_InvoiceDocument_CTR">
+    <apex:attribute name="invoiceId" type="Id" assignTo="{!idInvoice}" description=""/>
+    <table style="width:100%;">
+        <tr style="width:100%;">
+            <td style="width:50%; vertical-align: bottom;">
+                <p>
+                    <apex:outputText value="{!$Label.CC_Numero_de_factura}"/> &nbsp; <apex:outputText value="{!IF(invoice.Status__c=='Completed',invoice.Invoice_Number__c, invoice.Status__c)}" /><br></br>
+                    <apex:outputText value="{!$Label.CC_Fecha}"/> &nbsp; <apex:outputField value="{!invoice.InvoiceDate__c}"/><br/>
+                    <apex:outputText value="{!$Label.CC_Fecha_de_vencimiento}"/> &nbsp; <apex:outputfield value="{!invoice.DueDate__c}"/><br/>
+                </p>
+            </td >
+            <td style="width:50%; vertical-align: bottom;">
+                <p>
+                    <b><apex:outputText value="{!$Label.CC_DatosBancarios}"/></b><br></br>
+                    <apex:outputText value="{!$Label.CC_Banco}"/> &nbsp;  <apex:outputField value="{!invoice.BankAccountId__r.Bank_Name__c}" /><br></br>
+                    <apex:outputText value="{!$Label.CC_Titular}"/> &nbsp;  <apex:outputField value="{!invoice.BankAccountId__r.Owner__c}" /><br></br>
+                    <apex:outputText value="{!$Label.CC_SWIFT}"/> &nbsp;  <apex:outputField value="{!invoice.BankAccountId__r.Swift__c}" /><br></br>
+                    <apex:outputText value="{!$Label.CC_IBAN_Invoice}"/> &nbsp;  <apex:outputField value="{!invoice.BankAccountId__r.IBAN__c}" /><br></br>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <apex:dataTable id="table-products" value="{!invoice.Invoice_Lines__r}" var="invoiceLine" cellPadding="2px"  width="100%" styleClass="table-products" >
+        <apex:column headerClass="table-products-header" styleClass="table-products-col" headervalue="{!$Label.CC_Descripcion}" style="text-align: left">
+                <apex:outputText value="{!IF(ISBLANK(invoiceLine.Description_Rich__c),IF(ISBLANK(invoiceLine.Description__c),invoiceLine.ProductId__r.Name, invoiceLine.Description__c),invoiceLine.Description_Rich__c)}" escape="false"/>
+        </apex:column>
+        <apex:column headerClass="table-products-header" styleClass="table-products-col" headervalue="{!$Label.CC_Precio}" width="8%" >
+           <apex:outputField value="{!invoiceLine.UnitPrice__c}"/>
+        </apex:column>
+        <apex:column headerClass="table-products-header" styleClass="table-products-col" headervalue="{!$Label.CC_Cantidad}"  width="8%" >
+            <c:output value="{!invoiceLine.Quantity__c}" decimalPlaces="2"/>
+            <!--<apex:outputField value="{!invoiceLine.Quantity__c}"/>-->
+        </apex:column>
+        <apex:column headerClass="table-products-header" styleClass="table-products-col" headervalue="{!$Label.CC_Precio_total}" width="8%"  >
+            <apex:outputField value="{!invoiceLine.TotalPrice__c}"/>
+        </apex:column>
+        <apex:column headerClass="table-products-header" styleClass="table-products-col" headervalue="{!$Label.CC_Descuento}" width="8%">
+            <!--TODO: si se va a usar otra cosa además de EUR igual habría que tenerlo enc uenta ya que no saca el valor por defecto-->
+            <apex:outputField value="{!invoiceLine.Discount__c}" rendered="{!invoiceLine.DiscountType__c=='Percentage'}"/>
+            <apex:outputField value="{!invoiceLine.DiscountAmount__c}" rendered="{!invoiceLine.DiscountType__c=='Amount'}" />            
+        </apex:column>
+        <apex:column headerClass="table-products-header" styleClass="table-products-col" headervalue="{!$Label.CC_Base_imponible}" width="8%"  >
+            <apex:outputField value="{!invoiceLine.NetAmount__c}"/>
+        </apex:column>
+        <!--<apex:column headerClass="table-products-header" styleClass="table-products-col" headervalue="{!$Label.CC_IVA}" width="8%"  >
+            <apex:outputField value="{!invoiceLine.Tax__c}"/>
+        </apex:column>
+        <apex:column headerClass="table-products-header" styleClass="table-products-col" headervalue="{!$Label.CC_Total}" width="15%"  >
+            <apex:outputField value="{!invoiceLine.TotalAmount__c}"/>
+        </apex:column>-->
+    </apex:dataTable>
+</apex:component>

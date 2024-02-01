@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template no show webinar developer sept 23</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EM_WDEV1_No_show_sept_23</name>
+    <pageDevName>EM_WDEV1_Thanks_sept_23</pageDevName>
+    <style>none</style>
+    <subject>Sentimos que no pudieras asistir a nuestro webinar</subject>
+    <textOnly>Hola {{{Recipient.FirstName}}},
+
+Sentimos que no pudieras unirte a nuestro webinar Salesforce Developer I. 
+
+Por si aún estás interesado en conocer más sobre esta materia, no te preocupes, ¡Aún puedes inscribirte a nuestro curso completo Salesforce Developer I!
+
+En este curso podrás adquirir las habilidades para el desarrollo de aplicaciones de forma programática sobre la plataforma Force.com utilizandoApex , Visualforce y Lightning components.
+
+¿Quieres saber más? Pincha aquí  &lt; https://bit.ly/3qANRbk &gt; 
+
+Si tienes cualquier pregunta, por favor no dudes en contactar con nosotros enviando un email a info@cloudcoachers.com.
+
+© Cloud Coachers S.L. Loma de los Bailanderos 8, 28023, Madrid (España).
+
+Todos los derechos reservados.
+
+Este mensaje ha sido enviado a {{{Recipient.Email}}} por un sistema automático.
+
+Conoce nuestra política de privacidad &lt; https://www.cloudcoachers.com/politica-de-privacidad/ &gt; 
+
+Para contactar con Cloud Coachers puedes dirigirte a marketing@cloudcoachers.com &lt; mailto:marketing@cloudcoachers.com &gt; .
+
+Unsubscribe &lt;  {{{Unsubscribe}}}  &gt; | Centro de preferencias &lt;  {{{EmailPreferenceCenter}}}  &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

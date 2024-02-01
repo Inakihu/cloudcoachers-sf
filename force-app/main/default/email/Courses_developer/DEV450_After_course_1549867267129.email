@@ -1,0 +1,32 @@
+Hola,<br />
+<br />
+en primer lugar agradecer la asistencia al curso de Salesforce Platform Developer I que hemos realizado y espero que haya sido de su agrado.&nbsp;<br />
+<br />
+En segundo lugar facilitaros recursos lo que hemos estado tratando y v&iacute;nculos de utilidad para la preparaci&oacute;n del examen, a todos ellos podr&eacute;is acceder a partir de los siguientes v&iacute;nculos.
+<ul>
+	<li><a href="https://drive.google.com/drive/folders/1Y26AdLrRESm1wITYS2S2VloHv9Ao3K9V?usp=sharing">Recursos</a></li>
+	<li><a href="https://drive.google.com/drive/folders/1uh3uR0BB5vqmQ6c7ss022L6Cb67DzP2l?usp=sharing">Examenes</a></li>
+</ul>
+<br />
+Cualquier duda en la realizaci&oacute;n de los labs o durante el estudio de los ex&aacute;menes no dudes en contestar.&nbsp;<br />
+<br />
+V&iacute;nculo de interes:
+<ul>
+	<li><a href="https://trailhead.salesforce.com/">TrailHead - the fun way to learn Salesforce</a></li>
+	<li><a href="https://developer.salesforce.com/">Salesforce Developer Page</a></li>
+	<li><a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/">Force.com SOQL and SOSL Reference</a></li>
+	<li><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/">Apex Developer Guide</a></li>
+	<li><a href="https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/">Visualforce Developer Guide</a></li>
+	<li><a href="https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/">Lightning Components Developer Guide</a></li>
+	<li><a href="https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/">Salesforce Developer Limits Quick Reference</a></li>
+	<li><a href="https://developer.salesforce.com/docs/atlas.en-us.dev_lifecycle.meta/dev_lifecycle/">Development Lifecycle Guide</a></li>
+	<li><a href="https://developer.salesforce.com/docs/atlas.en-us.salesforce_visualforce_best_practices.meta/salesforce_visualforce_best_practices/">Visualforce Performance: Best Practices</a></li>
+	<li><a href="https://developer.salesforce.com/docs/atlas.en-us.salesforce_large_data_volumes_bp.meta/salesforce_large_data_volumes_bp/">Best Practices for Deployments with Large Data Volumes</a></li>
+	<li><a href="https://developer.salesforce.com/docs/component-library/documentation/lwc">Liightning Web Components</a></li>
+</ul>
+Extensiones de Chrome:
+
+<ul>
+	<li><a href="https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn">Clear Cache</a></li>
+	<li><a href="https://chrome.google.com/webstore/detail/salesforce-lightning-insp/pcpmcffcomlcjgpcheokdfcjipanjdpc">Lightning Inspector</a></li>
+</ul>

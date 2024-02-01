@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hola {{{Recipient.FirstName}}}, para formalizar tu matrícula en la&nbsp;Tarifa Plana en Formación&nbsp;necesitamos que completes estos pasos:&nbsp;<br />
+<br />
+1. Realiza un ingreso por un importe de <strong>1.250€</strong>&nbsp;en nuestra cuenta bancaria:&nbsp;
+<ul>
+	<li>IBAN: ES9501827382190201731046</li>
+	<li>Titular: Cloud Coachers SL&nbsp;</li>
+	<li>Concepto: TP24&nbsp;{{{Recipient.FirstName}}}&nbsp;{{{Recipient.LastName}}}</li>
+</ul>
+<br />
+2. Completa este <a href="https://docs.google.com/forms/d/e/1FAIpQLScDD4aH8lzqYRBUVlToeYc0QIZ6Nb0StzdjmIi9TUTMVzG7eg/viewform?usp=sf_link">formulario</a>.<br />
+<br />
+3. Envía el justificante de la transferencia o el ingreso a&nbsp;<a href="mailto:training@cloudcoachers.com">training@cloudcoachers.com</a><br />
+<br />
+<br />
+<br />
+Si tienes cualquier pregunta, por favor no dudes en contactar con nosotros enviando un email a&nbsp;<a href="mailto:training@cloudcoachers.com">training@cloudcoachers.com</a>.<br />
+<br />
+¡Muchas gracias!<br />
+<br />
+Paula Quirós<br />
+pquiros@cloudcoachers.com<br />
+www.cloudcoachers.com<br />
+<br />
+Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.<br />
+Para más información sobre la Política de Privacidad de Cloud Coachers S.L.:<br />
+https://www.cloudcoachers.com/politica-de-privacidad/</body>
+</html>

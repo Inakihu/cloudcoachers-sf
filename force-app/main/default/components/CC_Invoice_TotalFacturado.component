@@ -1,0 +1,82 @@
+<!--
+  @File Name          : CC_Invoice_TotalFacturado.component
+  @Description        : 
+  @Author             : TXU - jmurdiain@cloudcoachers.com
+  @Group              : 
+  @Last Modified By   : IHU - ihernando@cloudcoachers.com
+  @Last Modified On   : 4/29/2020, 9:47:29 PM
+  @Modification Log   : 
+  Ver       Date            Author                          Modification
+  1.0    2/27/2020   TXU - jmurdiain@cloudcoachers.com      Initial Version
+  1.1    4/29/2020   IHU - ihernando@cloudcoachers.com      Se corrige error en el por el cual no muestra el IVA en facturas negativas
+-->
+<apex:component controller="CC_InvoiceDocument_CTR">
+    <apex:attribute name="invoiceId" type="Id" assignTo="{!idInvoice}" description=""/>
+    <table class="table-total" style="height:100%; font-size:13px;">
+        <tr style="height:100%;">
+            <td style="width:65%; height:100%; vertical-align:top;padding-top:13px">
+                <div class="table-products-header" style="width:100%;"><b><apex:outputText value="{!$Label.CC_Notas}"/></b></div>
+                <div style="width: 100%; text-align: left;">
+                    <apex:outputField value="{!invoice.Notes__c}" />
+                </div>
+            </td>
+            <td style="witdh:35%; height:100%">
+                <table cellPadding="0" width="100%">
+                    <tr>
+                        <td class="total-part" style="width:100%; padding:4px">
+                            <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px"></hr>
+                            <apex:outputPanel rendered="{!showDiscount}" style="width:100%">
+                                <div style="display: inline-block;width:50%;text-align:left">
+                                    <apex:outputText value="{!$Label.CC_Precio_total}"/>:
+                                </div> 
+                                <div style="display: inline-block;width:46%;">
+                                    <apex:outputField value="{!invoice.Total_Price__c}" style="text-align:right"/>
+                                </div>
+                                <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px"></hr>
+
+                                <div style="display: inline-block;width:50%;text-align:left"><apex:outputText value="{!$Label.CC_Descuento}"/>:</div>
+                                <div style="display: inline-block;width:46%;">
+                                    <apex:outputField value="{!invoice.DiscountAmount__c}" style="width:50%;text-align:right"/>
+                                </div>
+                                <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px"></hr>
+                            </apex:outputPanel>
+                            <apex:outputPanel rendered="{!invoice.Withholding__c != null}" >        
+                                <div style="display: inline-block;width:50%;text-align:left;"><apex:outputText value="{!$Label.CC_Base_imponible}"/>:</div>
+                                <div style="display: inline-block;width:46%;">
+                                    <apex:outputField value="{!invoice.NetAmountWithoutWithholding__c}" style="text-align:right"/>
+                                </div>
+                                <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px"></hr>
+                                <div style="display: inline-block;width:50%;text-align:left;"><apex:outputText value="{!$Label.CC_Retencion}"/>:</div>
+                                <div style="display: inline-block;width:46%;">
+                                    <apex:outputField value="{!invoice.WithholdingAmount__c}" style="text-align:right"/>
+                                </div>
+                                <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px"></hr>
+                            </apex:outputPanel>
+                            <apex:outputPanel rendered="{!invoice.Withholding__c == null}" >
+                                <div style="display: inline-block;width:50%;text-align:left"><apex:outputText value="{!$Label.CC_Base_imponible}"/>:</div>
+                                <div style="display: inline-block;width:46%;">
+                                    <apex:outputField value="{!invoice.NetAmount__c}" style="width:50%;text-align:right"/>
+                                </div>
+                                <hr style="height:1px; background-color: rgb(61, 143, 210); border:0px"></hr>
+                            </apex:outputPanel>
+                            <!-- Apaño para subirlo a producción -->
+                            <apex:outputPanel rendered="{!invoice.TaxAmount__c != 0}">
+                                <c:CC_Invoice_IVA invoiceId="{!Invoice.Id}"/>
+                            </apex:outputPanel>
+                            <b>
+                            <div style="display: inline-block;width:50%;text-align:left">
+                                <apex:outputText value="{!$Label.CC_TotalAmount}"/>:
+                            </div>
+                            <div style="display: inline-block;width:46%;">
+                                <apex:outputField value="{!invoice.TotalAmount__c}" style="width:50%;text-align:right"/>
+                            </div>
+                            </b>
+                            <hr style="height:1px; margin-bottom: 1px;background-color: rgb(61, 143, 210); border:0px"></hr>
+                            <hr style="height:1px;margin-top:0px; background-color: rgb(61, 143, 210); border:0px"></hr>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</apex:component>

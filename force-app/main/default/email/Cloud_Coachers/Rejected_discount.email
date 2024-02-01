@@ -1,0 +1,8 @@
+Hola {!Opportunity.OwnerFullName}
+
+Fernando no ha aprobado el descuento para esta oportunidad
+{!Opportunity.Link}
+
+Ponte en contacto con él!
+
+Un saludo

@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Esto es una plantilla<br />
+<br />
+Hola&nbsp;{{{Recipient.FirstName}}}, estañlk laksdñfalksj lkasdflakdñakd fa<br />
+<br />
+<br />
+<br />
+Paula Quirós<br />
+pquiros@cloudcoachers.com<br />
+656 609 537<br />
+www.cloudcoachers.com<br />
+<br />
+Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.<br />
+Para más información sobre la Política de Privacidad de Cloud Coachers S.L.:<br />
+https://www.cloudcoachers.com/politica-de-privacidad/
+</body></html>

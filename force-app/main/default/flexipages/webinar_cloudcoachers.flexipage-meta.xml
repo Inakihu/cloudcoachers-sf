@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>htmlValue</name>
+                    <value>&lt;div class=&quot;nm-topbar&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+               &lt;div class=&quot;row u-px-contain&quot;&gt;
+                  &lt;div class=&quot;col-12&quot;&gt;
+                     &lt;div class=&quot;nm-topbar__content&quot;&gt;
+                        &lt;div class=&quot;nm-topbar__content-left&quot;&gt;
+                           &lt;img alt=&quot;Logo cloud coachers&quot; src=&quot;https://go.cloudcoachers.com/l/713593/2023-09-27/2283rq/713593/1695799954EmaGSz8f/logo_cloudcoachers_white.png&quot;&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;nm-topbar__content-right text-size--l&quot;&gt;
+                           Webinars Cloud Coachers
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+               &lt;/div&gt;
+            &lt;/div&gt;
+         &lt;/div&gt;</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:landingPageHtml</componentName>
+                <identifier>contentbuilder_landingPageHtml</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-592aeb2e-a918-4945-a0e8-a0fee22560a4</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-592aeb2e-a918-4945-a0e8-a0fee22560a4</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-7dc9ccf4-8ee0-43bf-a81f-9430114b6bd3</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>htmlValue</name>
+                    <value>&lt;div&gt;
+            &lt;div class=&quot;container&quot;&gt;
+               &lt;div class=&quot;row u-px-contain&quot;&gt;
+                  &lt;div class=&quot;col-12&quot;&gt;
+                     &lt;div class=&quot;nm-iframe&quot;&gt;
+                        &lt;div class=&quot;nm-iframe__content&quot;&gt;
+                           &lt;div class=&quot;text-size--xl&quot;&gt;
+                              Salesforce Developer I
+                           &lt;/div&gt;
+                           &lt;div class=&quot;nm-iframe__content-media&quot;&gt;
+                              &lt;div class=&quot;nm-iframe__content-media-video&quot;&gt;
+                                 &lt;iframe width=&quot;&quot; height=&quot;&quot; src=&quot;https://www.youtube.com/embed/1xPxavj8Vrs?si=MV0EzYVpHU7afMnD&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;
+                              &lt;/div&gt;
+                              &lt;div class=&quot;nm-iframe__content-media-chat&quot;&gt;
+                                 &lt;div class=&quot;nm-iframe__content-media-chat-box&quot;&gt;
+                                    chat
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                        &lt;/div&gt;
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+               &lt;/div&gt;
+            &lt;/div&gt;
+         &lt;/div&gt;</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:landingPageHtml</componentName>
+                <identifier>contentbuilder_landingPageHtml2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-0b0e1af7-5160-45f4-9d7e-809b355d026c</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-0b0e1af7-5160-45f4-9d7e-809b355d026c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-2363c877-abc1-425b-96d2-6b735fd62ac7</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>htmlValue</name>
+                    <value>&lt;div&gt;
+            &lt;div class=&quot;container&quot;&gt;
+               &lt;div class=&quot;row u-px-contain&quot;&gt;
+                  &lt;div class=&quot;col-12&quot;&gt;
+                     &lt;div class=&quot;nm-footer text-size--xxs&quot;&gt;
+                        &lt;p&gt;
+                           Cloud Coachers © 2023
+                        &lt;/p&gt;
+                        &lt;p&gt;
+                           C/ Loma de Bailanderos 8, Madrid
+                        &lt;/p&gt;
+                        &lt;p&gt;
+                           665 801 319 | hi@cloudcoachers.com | wwww.cloudcoachers.com
+                        &lt;/p&gt;
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+               &lt;/div&gt;
+            &lt;/div&gt;
+         &lt;/div&gt;</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:landingPageHtml</componentName>
+                <identifier>contentbuilder_landingPageHtml3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-d948cdb2-f7fb-4863-b039-903f70a59da1</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-d948cdb2-f7fb-4863-b039-903f70a59da1</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-8d9df83c-d6af-4dfc-82d9-8f3deb844cda</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-7dc9ccf4-8ee0-43bf-a81f-9430114b6bd3</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-2363c877-abc1-425b-96d2-6b735fd62ac7</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-8d9df83c-d6af-4dfc-82d9-8f3deb844cda</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>webinar_cloudcoachers</masterLabel>
+    <template>
+        <name>contentpage:defaultLandingPageTemplate</name>
+        <properties>
+            <name>backgroundColor</name>
+            <value>#E9EAEC</value>
+        </properties>
+        <properties>
+            <name>backgroundImageUrl</name>
+        </properties>
+        <properties>
+            <name>bodyColor</name>
+            <value>#FFFFFF</value>
+        </properties>
+        <properties>
+            <name>bodyWidth</name>
+            <value>1280</value>
+        </properties>
+        <properties>
+            <name>paddingBottom</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingLeft</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingRight</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingTop</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>pageDescription</name>
+        </properties>
+        <properties>
+            <name>pageTitle</name>
+        </properties>
+    </template>
+    <type>LandingPage</type>
+</FlexiPage>

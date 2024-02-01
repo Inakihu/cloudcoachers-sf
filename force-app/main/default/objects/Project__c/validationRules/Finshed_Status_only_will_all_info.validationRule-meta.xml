@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finshed_Status_only_will_all_info</fullName>
+    <active>true</active>
+    <description>Projects cannot be finished if there is missing info needed for the Salesfore Survey</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Finished&quot;)  &amp;&amp;  (ISBLANK(  Technical_Contact__c  )
+
+ || (ISBLANK(  Contact__c  )))</errorConditionFormula>
+    <errorDisplayField>Contact__c</errorDisplayField>
+    <errorMessage>You need to select the Business and Technical Contacts in order to Finish the project.</errorMessage>
+</ValidationRule>

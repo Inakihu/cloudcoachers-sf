@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Code__c</fullName>
+    <description>Code to be included in all campaign related elements in Pardot</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please insert the 5 character code you will use for all campaign related Pardot assets</inlineHelpText>
+    <label>Code</label>
+    <length>7</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

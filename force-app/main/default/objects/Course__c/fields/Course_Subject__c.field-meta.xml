@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Subject__c</fullName>
+    <externalId>false</externalId>
+    <label>Course Subject</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AWS - Amazon Web Services Fundamentals</fullName>
+                <default>false</default>
+                <label>AWS - Amazon Web Services Fundamentals</label>
+            </value>
+            <value>
+                <fullName>Bootcamp Associate</fullName>
+                <default>false</default>
+                <label>Bootcamp Associate</label>
+            </value>
+            <value>
+                <fullName>CPQ</fullName>
+                <default>false</default>
+                <label>CPQ</label>
+            </value>
+            <value>
+                <fullName>Datorama</fullName>
+                <default>false</default>
+                <label>Datorama</label>
+            </value>
+            <value>
+                <fullName>Einstein Recommendations</fullName>
+                <default>false</default>
+                <label>Einstein Recommendations</label>
+            </value>
+            <value>
+                <fullName>Ejercicio Práctico Salesforce</fullName>
+                <default>false</default>
+                <label>Ejercicio Práctico Salesforce</label>
+            </value>
+            <value>
+                <fullName>Financial Services Cloud</fullName>
+                <default>false</default>
+                <label>Financial Services Cloud</label>
+            </value>
+            <value>
+                <fullName>Google Cloud</fullName>
+                <default>false</default>
+                <label>Google Cloud</label>
+            </value>
+            <value>
+                <fullName>Google Professional Cloud Architect</fullName>
+                <default>false</default>
+                <label>Google Professional Cloud Architect</label>
+            </value>
+            <value>
+                <fullName>Heroku</fullName>
+                <default>false</default>
+                <label>Heroku</label>
+            </value>
+            <value>
+                <fullName>Lightning Components</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lightning Aura Components (Deprecated)</label>
+            </value>
+            <value>
+                <fullName>Lightning Web Component</fullName>
+                <default>false</default>
+                <label>Lightning Web Component</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud AMPscript</fullName>
+                <default>false</default>
+                <label>Marketing Cloud AMPscript</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Connect</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Connect</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Developer</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Developer</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Email</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Email</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Email + Admin</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Email + Admin</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Personalization</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Personalization</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Social</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Social</label>
+            </value>
+            <value>
+                <fullName>Pardot Consultant</fullName>
+                <default>false</default>
+                <label>Pardot Consultant</label>
+            </value>
+            <value>
+                <fullName>Pardot Specialist</fullName>
+                <default>false</default>
+                <label>Pardot Specialist</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud Implementation</fullName>
+                <default>false</default>
+                <label>Sales Cloud Implementation</label>
+            </value>
+            <value>
+                <fullName>Salesforce ADM and DEV Practice</fullName>
+                <default>false</default>
+                <label>Salesforce ADM and DEV Practice</label>
+            </value>
+            <value>
+                <fullName>Salesforce Administration</fullName>
+                <default>false</default>
+                <label>Salesforce Administration</label>
+            </value>
+            <value>
+                <fullName>Salesforce Advanced Administration</fullName>
+                <default>false</default>
+                <label>Salesforce Advanced Administration</label>
+            </value>
+            <value>
+                <fullName>B2B Commerce Admin</fullName>
+                <default>false</default>
+                <label>Salesforce B2B Commerce Admin</label>
+            </value>
+            <value>
+                <fullName>B2B Commerce Dev</fullName>
+                <default>false</default>
+                <label>Salesforce B2B Commerce Dev</label>
+            </value>
+            <value>
+                <fullName>Salesforce Community Cloud</fullName>
+                <default>false</default>
+                <label>Salesforce Community Cloud</label>
+            </value>
+            <value>
+                <fullName>SF Data Architecture</fullName>
+                <default>false</default>
+                <label>Salesforce Data Architecture and Management Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Customer Data Platform (CDP)</fullName>
+                <default>false</default>
+                <label>Salesforce Data Cloud (CDP)</label>
+            </value>
+            <value>
+                <fullName>SF Lifecycle</fullName>
+                <default>false</default>
+                <label>Salesforce Development Lifecycle and Deployment Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Einstein Analytics</fullName>
+                <default>false</default>
+                <label>Salesforce Einstein Analytics</label>
+            </value>
+            <value>
+                <fullName>Salesforce Field Service Cloud</fullName>
+                <default>false</default>
+                <label>Salesforce Field Service Lightning</label>
+            </value>
+            <value>
+                <fullName>SF Identity</fullName>
+                <default>false</default>
+                <label>Salesforce Identity and Access Management Designer</label>
+            </value>
+            <value>
+                <fullName>SF Integration</fullName>
+                <default>false</default>
+                <label>Salesforce Integration Architecture Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Salesforce Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud Consultant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Salesforce Marketing Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud Email</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Salesforce Marketing Cloud Email</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud Social</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Salesforce Marketing Cloud Social</label>
+            </value>
+            <value>
+                <fullName>Salesforce Pardot</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Salesforce Pardot</label>
+            </value>
+            <value>
+                <fullName>Salesforce Platform App Builder</fullName>
+                <default>false</default>
+                <label>Salesforce Platform App Builder</label>
+            </value>
+            <value>
+                <fullName>Salesforce Platform Bootcamp</fullName>
+                <default>false</default>
+                <label>Salesforce Platform Bootcamp</label>
+            </value>
+            <value>
+                <fullName>Salesforce Platform Bootcamp Developer</fullName>
+                <default>false</default>
+                <label>Salesforce Platform Bootcamp Developer</label>
+            </value>
+            <value>
+                <fullName>SF Developer I</fullName>
+                <default>false</default>
+                <label>Salesforce Platform Developer I</label>
+            </value>
+            <value>
+                <fullName>SF Developer II</fullName>
+                <default>false</default>
+                <label>Salesforce Platform Developer II</label>
+            </value>
+            <value>
+                <fullName>Salesforce Sales Cloud Implementation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Salesforce Sales Cloud Implementation</label>
+            </value>
+            <value>
+                <fullName>Salesforce Service Cloud Implementation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Salesforce Service Cloud Implementation</label>
+            </value>
+            <value>
+                <fullName>SF Sharing and Visibility</fullName>
+                <default>false</default>
+                <label>Salesforce Sharing and Visibility Designer</label>
+            </value>
+            <value>
+                <fullName>Salesforce Wave Analitics</fullName>
+                <default>false</default>
+                <label>Salesforce Wave Analitics</label>
+            </value>
+            <value>
+                <fullName>Service Cloud Implementation</fullName>
+                <default>false</default>
+                <label>Service Cloud Implementation</label>
+            </value>
+            <value>
+                <fullName>Usuario Final Salesforce</fullName>
+                <default>false</default>
+                <label>Usuario Final Salesforce</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

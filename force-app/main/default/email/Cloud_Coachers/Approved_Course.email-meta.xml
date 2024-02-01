@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Approved Course</name>
+    <style>none</style>
+    <subject>Curso aprobado</subject>
+    <textOnly>Hola
+
+
+Se ha generado el Curso
+
+
+Muchísimas gracias,
+
+
+
+Saludos.
+
+
+
+Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.
+
+Para más información sobre la LOPD de Cloud Coachers S.L.
+
+
+http://www.cloudcoachers.com/lopd-cloud-coachers-s-l/</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

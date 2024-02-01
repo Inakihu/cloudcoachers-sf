@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vouchers_por_cuenta</fullName>
+    <columns>NAME</columns>
+    <columns>Voucher__c</columns>
+    <columns>Assigned_to__c</columns>
+    <columns>Company__c</columns>
+    <columns>Certification__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Vouchers por cuenta</label>
+</ListView>

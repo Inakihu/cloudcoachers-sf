@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Missing_TimeCards</fullName>
+    <columns>NAME</columns>
+    <columns>pse__Start_Date__c</columns>
+    <columns>pse__End_Date__c</columns>
+    <columns>pse__Resource__c</columns>
+    <columns>pse__Date_Timecard_Entered__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>pse__Include_Sublevels__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>pse__Date_Timecard_Entered__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>My Missing TimeCards</label>
+</ListView>

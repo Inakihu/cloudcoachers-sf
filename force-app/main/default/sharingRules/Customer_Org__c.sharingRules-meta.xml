@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Marketing_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Marketing Manager</label>
+        <sharedTo>
+            <role>Manager_Mk</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Solution__c</field>
+            <operation>equals</operation>
+            <value>Marketing Cloud,Pardot</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Marketing_team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Marketing team</label>
+        <sharedTo>
+            <roleAndSubordinates>Equipo_de_Mk</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Solution__c</field>
+            <operation>equals</operation>
+            <value>Marketing Cloud,Pardot</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Interno_Falta_reporte_horas_Notificaci_n_1</fullName>
+        <ccEmails>psa@cloudcoachers.com</ccEmails>
+        <description>[Interno] Falta reporte horas - Notificación 1</description>
+        <protected>false</protected>
+        <recipients>
+            <field>pse__Resource__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>psa@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Cloud_Coachers_Internos/Sin_reporte_de_horas</template>
+    </alerts>
+    <alerts>
+        <fullName>Interno_Falta_reporte_horas_Notificaci_n_2</fullName>
+        <ccEmails>psa@cloudcoachers.com</ccEmails>
+        <description>[Interno] Falta reporte horas - Notificación 2</description>
+        <protected>false</protected>
+        <recipients>
+            <type>campaignMemberDerivedOwner</type>
+        </recipients>
+        <recipients>
+            <field>pse__Resource__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>psa@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Cloud_Coachers_Internos/Sin_reporte_de_horas_Recordatoria_1</template>
+    </alerts>
+    <alerts>
+        <fullName>Interno_Falta_reporte_horas_Notificaci_n_3</fullName>
+        <ccEmails>psa@cloudcoachers.com</ccEmails>
+        <description>[Interno] Falta reporte horas - Notificación 3</description>
+        <protected>false</protected>
+        <recipients>
+            <type>campaignMemberDerivedOwner</type>
+        </recipients>
+        <recipients>
+            <field>pse__Resource__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <recipient>mesteban@cloudcoachers.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>psa@cloudcoachers.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Cloud_Coachers_Internos/Sin_reporte_de_horas_Recordatoria_2</template>
+    </alerts>
+</Workflow>

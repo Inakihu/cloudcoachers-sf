@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ihernando@cloudcoachers.com</contactEmail>
+    <label>Cloud Coachers CI App</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/callback</callbackUrl>
+        <certificate>MIID1DCCArwCCQDMpqad/ktvkTANBgkqhkiG9w0BAQsFADCBqjELMAkGA1UEBhMCRVMxDzANBgNVBAgMBk1hZHJpZDEPMA0GA1UEBwwGTWFkcmlkMRcwFQYDVQQKDA5DbG91ZCBDb2FjaGVyczELMAkGA1UECwwCSVQxJzAlBgNVBAMMHkdlbmVyaWMgSUMgQ2VydCBDbG91ZCBDb2FjaGVyczEqMCgGCSqGSIb3DQEJARYbaWhlcm5hbmRvQGNsb3VkY29hY2hlcnMuY29tMCAXDTIyMTIyNzEzNDEyOVoYDzIwNTAwNTEzMTM0MTI5WjCBqjELMAkGA1UEBhMCRVMxDzANBgNVBAgMBk1hZHJpZDEPMA0GA1UEBwwGTWFkcmlkMRcwFQYDVQQKDA5DbG91ZCBDb2FjaGVyczELMAkGA1UECwwCSVQxJzAlBgNVBAMMHkdlbmVyaWMgSUMgQ2VydCBDbG91ZCBDb2FjaGVyczEqMCgGCSqGSIb3DQEJARYbaWhlcm5hbmRvQGNsb3VkY29hY2hlcnMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy6CZ5TgPTOTJSAHZIFAq8yiBKfVe9PvOZgJhqE1H98Y/KErF2gveGwkLdnHr6v0uCcB4+Emz7fHpQqdlUhWeZTQp7itIISSj6VG/9sMjWjUxsVWNhEpVDlDR5btRCGT8S2nwIWiDsO2pA/r5DErY3VSLp3j0BHmjhx3g6cxa8MIPJ3zFEIYgW2A33VFN3OdsOj8CXo3ceqEDvojleyVq1Qyo3q3YeIkARCwMISGGVsf7EbJE9/TnEEbJLpZswPHPHroA096ZBn4XPCFUeNoqyp4lJEXU1f84FEmcGWXVyO/eVE3k3EO9capZWFHUi5hBdfdfOzPMFhzBJlX4p6pd1wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA8X1PzWeZTLuGyv03JHtWlWIYJYLH6IzzsXI0ZUxrbXhx18nXx4OzvMCVU156/yVD59VjVvsAk6dC+yg5fVuSUYfeDQlrpVMCK65QpBY/8bjasOnVxWZwuO8Gay1PEr6nF1/RUopvLj8/+RJcyV/3iWLKc/J30Eq9d7FSPLSyCqb9GsA5acQOyWYWuuE3q3IngBlY4TsJ0nA4MJd87YXOQiiZpWbiG9sb/AtBdY09Bi+v4bTvWofoM4WXfxhrNrYkEJjh/nwISEKe6zFd1zsd2GnkF3At2Rdvt/zvc404VgA7VMe0oKDkDSoHuk93nLW9edWf2JjlW3jiHZ26o8wnt</certificate>
+        <consumerKey>3MVG9Rd3qC6oMalXxKRCWVTn4_o07_ogOlT02iy7iJc5dnXaIET_w_vt3qwg2a23v47izdaVeXP1jnQQLj3d8</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

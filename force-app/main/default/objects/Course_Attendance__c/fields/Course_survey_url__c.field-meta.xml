@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_survey_url__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Course__r.Course_Product__r.Course_Survey_url__c) || ISNULL(Course__r.Course_Product__r.Course_Survey_url__c),&apos;https://docs.google.com/forms/d/e/1FAIpQLScVM3Qp1VFuVWGVSFuLE27_vc7PCXys_EENhtPF9BIR7v6_sA/viewform&apos;,Course__r.Course_Product__r.Course_Survey_url__c)</formula>
+    <label>Course survey URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certification__c</fullName>
+    <externalId>false</externalId>
+    <label>Certification</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce.com Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce.com Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce.com Advanced Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce.com Advanced Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce Sales Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Sales Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Service Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Service Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Community Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Community Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud Email Specialist</fullName>
+                <default>false</default>
+                <label>Salesforce Marketing Cloud Email Specialist</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud Social Specialist</fullName>
+                <default>false</default>
+                <label>Salesforce Marketing Cloud Social Specialist</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Marketing Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce Marketing Cloud Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud Developer</fullName>
+                <default>false</default>
+                <label>Salesforce Marketing Cloud Developer</label>
+            </value>
+            <value>
+                <fullName>Force.com Platform Application Builder</fullName>
+                <default>false</default>
+                <label>Force.com Platform Application Builder</label>
+            </value>
+            <value>
+                <fullName>Force.com Platform Developer I</fullName>
+                <default>false</default>
+                <label>Force.com Platform Developer I</label>
+            </value>
+            <value>
+                <fullName>Force.com Platform Developer II</fullName>
+                <default>false</default>
+                <label>Force.com Platform Developer II</label>
+            </value>
+            <value>
+                <fullName>Salesforce Pardot Specialist</fullName>
+                <default>false</default>
+                <label>Salesforce Pardot Specialist</label>
+            </value>
+            <value>
+                <fullName>Salesforce Pardot Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Pardot Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Field Services Lightning</fullName>
+                <default>false</default>
+                <label>Salesforce Field Services Lightning</label>
+            </value>
+            <value>
+                <fullName>Salesforce Financials Services Lightning</fullName>
+                <default>false</default>
+                <label>Salesforce Financials Services Lightning</label>
+            </value>
+            <value>
+                <fullName>Salesforce Architect</fullName>
+                <default>false</default>
+                <label>Salesforce Architect</label>
+            </value>
+            <value>
+                <fullName>Salesforce B2B Commerce Administrator</fullName>
+                <default>false</default>
+                <label>Salesforce B2B Commerce Administrator</label>
+            </value>
+            <value>
+                <fullName>Salesforce B2B Commerce Developer</fullName>
+                <default>false</default>
+                <label>Salesforce B2B Commerce Developer</label>
+            </value>
+            <value>
+                <fullName>Einstein Analytics and Discovery Consultant</fullName>
+                <default>false</default>
+                <label>Einstein Analytics and Discovery Consultant</label>
+            </value>
+            <value>
+                <fullName>Datorama</fullName>
+                <default>false</default>
+                <label>Datorama</label>
+            </value>
+            <value>
+                <fullName>Generic exam vouchers</fullName>
+                <default>false</default>
+                <label>Generic exam vouchers</label>
+            </value>
+            <value>
+                <fullName>Salesforce.com Administrator Maintenance</fullName>
+                <default>false</default>
+                <label>Salesforce.com Administrator Maintenance</label>
+            </value>
+            <value>
+                <fullName>RETAKE Generic exam vouchers</fullName>
+                <default>false</default>
+                <label>RETAKE Generic exam vouchers</label>
+            </value>
+            <value>
+                <fullName>RETAKE Salesforce Sales Cloud Consultant</fullName>
+                <default>false</default>
+                <label>RETAKE Salesforce Sales Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>RETAKE Salesforce Service Cloud Consultant</fullName>
+                <default>false</default>
+                <label>RETAKE Salesforce Service Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>RETAKE Force.com Platform Developer I</fullName>
+                <default>false</default>
+                <label>RETAKE Force.com Platform Developer I</label>
+            </value>
+            <value>
+                <fullName>RETAKE Force.com Platform Developer II</fullName>
+                <default>false</default>
+                <label>RETAKE Force.com Platform Developer II</label>
+            </value>
+            <value>
+                <fullName>-- Not valid voucher --</fullName>
+                <default>false</default>
+                <label>-- Not valid voucher --</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,5 @@
+{{{Recipient.FirstName}}},<br />
+<br />
+Este curso &nbsp;{{{Course__c.Id}}}&nbsp;empieza en 7 d&iacute;as y no se ha confirmado. Si no se confirma, los emails con los detalles log&iacute;sticos no se enviar&aacute;n a los alumnos. Confirma o cancela el curso por favor.&nbsp;<br />
+<br />
+Awesome Admin

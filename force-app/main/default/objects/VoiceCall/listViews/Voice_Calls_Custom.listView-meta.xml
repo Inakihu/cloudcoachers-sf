@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Voice_Calls_Custom</fullName>
+    <columns>Name</columns>
+    <columns>CallType</columns>
+    <columns>Caller</columns>
+    <columns>RelatedRecord</columns>
+    <columns>FromPhoneNumber</columns>
+    <columns>CallDisposition</columns>
+    <columns>CallStartDateTime</columns>
+    <columns>CallResolution</columns>
+    <columns>QualityScore</columns>
+    <columns>Department__c</columns>
+    <columns>CallDurationInSeconds</columns>
+    <columns>IVRInput__c</columns>
+    <columns>IVRType__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>CC Voice Calls</label>
+</ListView>

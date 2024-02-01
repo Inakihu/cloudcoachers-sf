@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_Funcional_with_MK</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Funcional with MK</label>
+        <sharedTo>
+            <role>Manager_Mk</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Manager_Funcional</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_MK_with_Funcional</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share MK with Funcional</label>
+        <sharedTo>
+            <role>Manager_Funcional</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Manager_Mk</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Tecnicos_with_Funcional</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Técnicos with Funcional</label>
+        <sharedTo>
+            <role>Manager_Funcional</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Manager_Tecnico</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Tecnicos_with_MK</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Técnicos with MK</label>
+        <sharedTo>
+            <role>Manager_Mk</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Manager_Tecnico</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

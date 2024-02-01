@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Developers</label>
+    <permissionSets>appirio_core__PSA</permissionSets>
+    <permissionSets>ffct__Consultant_Tools</permissionSets>
+    <permissionSets>fferpcore__ERPMessaging</permissionSets>
+    <permissionSets>psaws__PSA_Workspaces_Project_Manager</permissionSets>
+    <permissionSets>psaws__PSA_Workspaces_Resource_Manager</permissionSets>
+    <permissionSets>pse__PSA</permissionSets>
+    <permissionSets>pse__PSAExpenses</permissionSets>
+    <permissionSets>pse__PSAOperations</permissionSets>
+    <permissionSets>pse__PSAProjectManagerGantt</permissionSets>
+    <permissionSets>pse__PSATimeandExpenseMobileExpense</permissionSets>
+    <permissionSets>pse__PSATimecardAPI</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

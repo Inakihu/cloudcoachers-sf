@@ -1,0 +1,12 @@
+Hola {!Contact.FirstName}!!<br />
+<br />
+Aqu&iacute; te paso el voucher de Email:&nbsp;<br />
+ANN22NR8RbDryNVS<br />
+<br />
+Ya has preparado los 5 ex&aacute;menes, verdad?&nbsp;<br />
+<br />
+Un abrazo,<br />
+<br />
+{!User.Name}<br />
+{!User.Email}<br />
+www.cloudcoachers.com

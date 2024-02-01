@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dont_change_Discount_if_approved</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT( Approval_status__c ) = &quot;Approved&quot;,  ISCHANGED( Discount__c ) )</errorConditionFormula>
+    <errorDisplayField>Discount__c</errorDisplayField>
+    <errorMessage>Discount can´t be modified if opportunity has been approved</errorMessage>
+</ValidationRule>

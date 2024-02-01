@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Hours__c</fullName>
+    <description>Horas totales sin tener en cuenta ningún filtro</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Horas totales sin tener en cuenta ningún filtro. Aparece Saved; Submitted,etc, Facturables y no facturables</inlineHelpText>
+    <label>Total Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

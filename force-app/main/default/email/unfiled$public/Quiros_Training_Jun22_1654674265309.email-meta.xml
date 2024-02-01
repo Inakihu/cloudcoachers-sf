@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Quiros_Training_Jun22</name>
+    <pageDevName>Quiros_Training_Jun22</pageDevName>
+    <style>none</style>
+    <subject>Probando nuevo template builder</subject>
+    <textOnly>[Image alt text: Cloud Coachers Logo]  &lt; https://www.cloudcoachers.com &gt; 
+
+Hola {{{Recipient.FirstName}}},
+
+Esto es una prueba bla bla bla 
+
+Un abrazo,
+
+{{{Sender.Name}}}
+
+{{{Sender.Email}}}
+
+{{{Sender.Phone}}}
+
+www.ratpanat.com
+
+Descárgate la ficha &lt; https://www.cloudcoachers.com &gt; 
+
+© Cloud Coachers S.L. Loma de los Bailanderos 8, 28023, Madrid (España).
+
+Todos los derechos reservados.
+
+Este mensaje ha sido enviado a {{{Recipient.Email}}}por un sistema automático.
+
+Conoce nuestra política de privacidad &lt; https://www.cloudcoachers.com/politica-de-privacidad/ &gt; .
+
+Para contactar con Cloud Coachers puedes dirigirte a hi@cloudcoachers.com &lt; mailto:hi@cloudcoachers.com &gt; .
+
+Gestionar mis preferencias  &lt; {{EmailPreferenceCenter_482}} &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

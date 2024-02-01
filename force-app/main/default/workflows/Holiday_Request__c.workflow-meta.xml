@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Approved_Holidays</fullName>
+        <description>Approved Holidays</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Cloud_Coachers/Approved_Holidays</template>
+    </alerts>
+    <alerts>
+        <fullName>Rejected_Holidays</fullName>
+        <description>Rejected Holidays</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Cloud_Coachers/Rejected_Holidays</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Holidays_Status_Approved</fullName>
+        <field>Holiday_Req_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Holidays Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Holidays_Status_Pending</fullName>
+        <field>Holiday_Req_Status__c</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>Holidays Status Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Holidays_Status_Rejected</fullName>
+        <field>Holiday_Req_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Holidays Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template to send the voucher to a student</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Voucher template</name>
+    <style>none</style>
+    <subject>Voucher para la Certificación 🤞</subject>
+    <textOnly>Hola, {!Voucher__c.Assigned_to__c}
+
+Aquí tienes el voucher para examinarte de {!Voucher__c.Certification__c}:
+
+{!Voucher__c.Voucher__c}
+
+Recuerda que tienes que utilizarlo en un plazo máximo de 3 meses.
+
+Y en este artículo te recordamos cómo registrarte para tu certificación paso a paso.
+
+¡Un abrazo y mucha suerte!
+Saludos,
+
+{!User.Name}
+Cloud Coach
+{!User.Email}
+{!User.Phone}
+
+Si quieres estar informado de novedades, ofertas de cursos y que te invitemos a eventos, por favor danos tu consentimiento.
+
+Aviso sobre Confidencialidad
+Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.
+Para más información sobre la LOPD de Cloud Coachers S.L., https://www.cloudcoachers.com/politica-de-privacidad/</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

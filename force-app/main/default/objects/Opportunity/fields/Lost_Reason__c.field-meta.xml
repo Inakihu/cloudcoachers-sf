@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Lost Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Delayed Project</fullName>
+                <default>false</default>
+                <label>Delayed Project</label>
+            </value>
+            <value>
+                <fullName>Salesforce lost oppty</fullName>
+                <default>false</default>
+                <label>Salesforce lost oppty</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>No response from customer</fullName>
+                <default>false</default>
+                <label>No response from customer</label>
+            </value>
+            <value>
+                <fullName>No project</fullName>
+                <default>false</default>
+                <label>No project</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

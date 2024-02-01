@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confirmado_sin_link_con_alumnos_remotos</fullName>
+    <active>true</active>
+    <description>No se puede confirmar un curso si no hay link de webex y tiene alumnos remotos</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Confirmed&quot;) &amp;&amp; ISBLANK(Webex__c) &amp;&amp;  Number_of_remote_Attendants__c &gt;0</errorConditionFormula>
+    <errorMessage>WebEx Link have been filled if course has remote attendances</errorMessage>
+</ValidationRule>

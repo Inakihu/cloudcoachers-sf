@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>SF Sales Cloud</fullName>
+        <default>false</default>
+        <label>SF Sales Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>SF Service Cloud</fullName>
+        <default>false</default>
+        <label>SF Service Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>SF Marketing Cloud</fullName>
+        <default>false</default>
+        <label>SF Marketing Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>SF MC Account Engagement</fullName>
+        <default>false</default>
+        <label>SF MC Account Engagement</label>
+    </customValue>
+    <customValue>
+        <fullName>Social Studio</fullName>
+        <default>false</default>
+        <label>SF Social Studio</label>
+    </customValue>
+    <customValue>
+        <fullName>SF Commerce Cloud B2B</fullName>
+        <default>false</default>
+        <label>SF Commerce Cloud B2B</label>
+    </customValue>
+    <customValue>
+        <fullName>SF Commerce Cloud B2C</fullName>
+        <default>false</default>
+        <label>SF Commerce Cloud B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>SF Data Cloud</fullName>
+        <default>false</default>
+        <label>SF Data Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>SF Development</fullName>
+        <default>false</default>
+        <label>SF Development</label>
+    </customValue>
+    <customValue>
+        <fullName>SF Architecture</fullName>
+        <default>false</default>
+        <label>SF Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>SF MultiCloud</fullName>
+        <default>false</default>
+        <label>SF MultiCloud</label>
+    </customValue>
+    <customValue>
+        <fullName>FinancialForce Financial Management</fullName>
+        <default>false</default>
+        <label>FinancialForce</label>
+    </customValue>
+    <customValue>
+        <fullName>DocuSign</fullName>
+        <default>false</default>
+        <label>DocuSign</label>
+    </customValue>
+    <customValue>
+        <fullName>Sage Live</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sage Live</label>
+    </customValue>
+    <masterLabel>Cloud Coachers  Technologies</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cloud Coachers Madrid</fullName>
+                <default>false</default>
+                <label>Cloud Coachers Madrid</label>
+            </value>
+            <value>
+                <fullName>Customer Office</fullName>
+                <default>false</default>
+                <label>Customer Office</label>
+            </value>
+            <value>
+                <fullName>Virtual Training</fullName>
+                <default>false</default>
+                <label>Virtual Training</label>
+            </value>
+            <value>
+                <fullName>Other Office</fullName>
+                <default>false</default>
+                <label>Other Office</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

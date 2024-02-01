@@ -1,0 +1,49 @@
+/*---------------------------------CSS for Header---------------------------------*/
+/*table{border:1px solid red}
+body{border: 1px solid blue;}
+td{border:1px solid green}*/
+
+.imagenLogo{
+    height: 22mm;
+}
+.tableHeader{
+    width: 100%;
+}
+.imagenLineaTop{
+    height: 6mm;
+    width: 100%;
+}
+a{
+    color: rgb(61, 143, 210) !important;
+}
+/*---------------------------------CSS for Datos de las Empresas---------------------------------*/
+.tableEmpresas{
+    width: 100%;
+}
+.table-products{
+    font-size: 12px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    padding:0px;
+}
+.table-products-col{
+    text-align: center;
+    border-bottom:1px solid rgb(61, 143, 210); 
+    padding:3px;
+}
+
+.table-products-header{
+    background-color: rgb(61, 143, 210);
+    border: 0px;
+    text-align: center;
+    color: white;
+}
+.table-total{
+    width:100%; 
+    cellPadding:5px; 
+    text-align:center;
+}
+.total-part{
+    text-align: right;
+    padding-bottom: 0px;
+}

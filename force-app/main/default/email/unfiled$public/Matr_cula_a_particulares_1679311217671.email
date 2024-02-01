@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">Hola,&nbsp;{{{Recipient.FirstName}}},</span></span><br />
+<br />
+<span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">Para formalizar tu matrícula necesitamos que completes estos pasos:&nbsp;<br />
+<br />
+1. Realizar un ingreso por el importe <strong>XXX,XX€&nbsp;</strong>en nuestra cuenta bancaria:&nbsp;</span></span>
+<ul>
+	<li><span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">IBAN: ES9501827382190201731046</span></span></li>
+	<li><span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">Titular: Cloud Coachers SL&nbsp;</span></span></li>
+	<li><span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">Concepto: Curso <strong>XXX</strong> {{{Recipient.Name}}}</span></span></li>
+</ul>
+<br />
+<span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">2. Completar </span></span><a href="https://docs.google.com/forms/d/e/1FAIpQLScDD4aH8lzqYRBUVlToeYc0QIZ6Nb0StzdjmIi9TUTMVzG7eg/viewform?usp=sf_link"><span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">este formulario</span></span></a><br />
+<br />
+<span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">3. Enviar el justificante de la transferencia o el ingreso a </span></span><a href="mailto:training@cloudcoachers.com"><span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">training@cloudcoachers.com</span></span></a><br />
+<br />
+<span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">Cualquier duda que tengas, no dudes en ponerte en contacto conmigo.<br />
+<br />
+Un saludo,<br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Phone}}}<br />
+{{{Sender.Email}}}<br />
+<br />
+<br />
+Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.<br />
+Para más información sobre la Política de Privacidad de Cloud Coachers S.L.:<br />
+https://www.cloudcoachers.com/politica-de-privacidad/</span></span></body>
+</html>

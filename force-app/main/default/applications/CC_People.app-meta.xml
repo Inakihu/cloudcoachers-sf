@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Aplicación especifica para la gestión de equipo de recursos humanos</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>CC People</label>
+    <navType>Standard</navType>
+    <tabs>standard-Event</tabs>
+    <tabs>pse__Work_Calendar__c</tabs>
+    <tabs>Annual_Holiday__c</tabs>
+    <tabs>pse__HolidayObj__c</tabs>
+    <tabs>Holiday_Request__c</tabs>
+    <tabs>standard-Contact</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>CC_People_UtilityBar1</utilityBar>
+</CustomApplication>

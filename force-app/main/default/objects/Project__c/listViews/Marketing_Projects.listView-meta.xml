@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Projects</fullName>
+    <columns>NAME</columns>
+    <columns>AccountId__c</columns>
+    <columns>Status__c</columns>
+    <columns>Type__c</columns>
+    <columns>Hours__c</columns>
+    <columns>Hours_Consumed__c</columns>
+    <columns>Time_consumed__c</columns>
+    <columns>ProjectLeadId__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>AccountId__c</field>
+        <operation>notEqual</operation>
+        <value>Cloud Coachers SL</value>
+    </filters>
+    <filters>
+        <field>Technology__c</field>
+        <operation>equals</operation>
+        <value>SF Marketing Cloud,SF Pardot,Social Studio,SF MultiCloud</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Finished,SF Survey</value>
+    </filters>
+    <label>Marketing Projects</label>
+    <sharedTo>
+        <roleAndSubordinates>Equipo_de_Mk</roleAndSubordinates>
+    </sharedTo>
+</ListView>

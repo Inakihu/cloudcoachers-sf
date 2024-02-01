@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CC Line Manager Permissions</label>
+    <permissionSets>CC_Line_Project_Manager</permissionSets>
+    <permissionSets>PSAProjectManagerGantt</permissionSets>
+    <permissionSets>psaws__PSA_Workspaces_Project_Manager</permissionSets>
+    <permissionSets>psaws__PSA_Workspaces_Resource_Manager</permissionSets>
+    <permissionSets>pse__PSAProjectManagementCreateProjectFromTemplate</permissionSets>
+    <permissionSets>pse__PSAProjectVersions</permissionSets>
+    <permissionSets>pse__PSASkills</permissionSets>
+    <permissionSets>pse__PSASkillsCascadeDelete</permissionSets>
+    <permissionSets>pse__PSATimeandExpenseMobileExpense</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

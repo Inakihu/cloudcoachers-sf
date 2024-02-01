@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<span style="font-size:14px;"><span style="font-family:Helvetica,Arial,Helvetica,sans-serif;">¡Hola,&nbsp;{{{Recipient.FirstName}}}<br />
+<br />
+Soy&nbsp;{{{Sender.FirstName}}} de Cloud Coachers, hemos recibido tu solicitud de información sobre los cursos.<br />
+<br />
+Me gustaría poder proporcionarte toda la información que necesites, para ello, ¿sería posible ponernos en contacto vía teléfono o videollamada o que me proporcionases información más concreta sobre qué necesitas?<br />
+<br />
+Esto nos ayudará a asesorarte mejor según tus necesidades y responder cualquier duda que tengas.<br />
+<br />
+Espero tu respuesta, ¡muchas gracias!<br />
+<br />
+Un saludo,<br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Phone}}}<br />
+{{{Sender.Email}}}<br />
+<br />
+<br />
+Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.<br />
+Para más información sobre la Política de Privacidad de Cloud Coachers S.L.:<br />
+https://www.cloudcoachers.com/politica-de-privacidad/</span></span></body>
+</html>

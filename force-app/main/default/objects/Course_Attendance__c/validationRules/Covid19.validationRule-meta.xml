@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Covid19</fullName>
+    <active>false</active>
+    <errorConditionFormula>Remotely__c = false &amp;&amp; ISPICKVAL(Status__c,&apos;Confirmed&apos;)</errorConditionFormula>
+    <errorDisplayField>Remotely__c</errorDisplayField>
+    <errorMessage>Only remote assistants are currently allowed</errorMessage>
+</ValidationRule>

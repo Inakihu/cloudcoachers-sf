@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Envío de documentación del curso</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Course Documentation v2</name>
+    <style>none</style>
+    <subject>☁️ Documentación del curso {!Course_Attendance__c.Course_Name__c}</subject>
+    <textOnly>¡Hola, {!Course_Attendance__c.Attendant_First_Name__c}!
+
+Tu curso de {!Course_Attendance__c.Course_Name__c} está a punto de comenzar y queremos que estés preparad@. Te enviamos la documentación que utilizaréis en clase para que te la descargues antes de empezar.
+
+Saludos,
+
+{!Course_Attendance__c.Course_Instructor_Name__c}
+Cloud Coach
+{!Course_Attendance__c.Course_Instructor_Email__c}
+
+Si quieres estar informado de novedades, ofertas de cursos y que te invitemos a eventos, por favor danos tu consentimiento.
+
+Aviso sobre Confidencialidad
+Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.
+Para más información sobre la LOPD de Cloud Coachers S.L.,https://www.cloudcoachers.com/politica-de-privacidad/</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

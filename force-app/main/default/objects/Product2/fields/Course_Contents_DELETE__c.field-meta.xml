@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Contents_DELETE__c</fullName>
+    <description>Course Content in html</description>
+    <externalId>false</externalId>
+    <label>Course Contents_DELETE</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>50</visibleLines>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Envío de cuestionario del curso (Fundae)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Course Cuestionnaire</name>
+    <style>none</style>
+    <subject>🎓 Cuestionario final de {!Course_Attendance__c.Course_Name__c}</subject>
+    <textOnly>¡¡ Hola, {!Course_Attendance__c.Attendant_First_Name__c}!
+
+Te enviamos un cuestionario con unas preguntas seleccionadas para evaluar tu aprovechamiento del curso. Este cuestionario es necesario para Fundae y no equivale a un examen de certificación. 
+
+{!Course__c.Course_Questionnaire_FUNDAE__c} .
+
+Si te surge alguna duda acerca de las respuestas planteadas, no dudes en escribirme.
+
+¡Mucha suerte!
+Saludos,
+
+{!Course_Attendance__c.Course_Instructor_Name__c}
+Cloud Coach
+{!Course_Attendance__c.Course_Instructor_Email__c}
+
+Si quieres estar informado de novedades, ofertas de cursos y que te invitemos a eventos, por favor danos tu consentimiento.
+
+Aviso sobre Confidencialidad
+Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.
+Para más información sobre la LOPD de Cloud Coachers S.L.https://www.cloudcoachers.com/politica-de-privacidad/</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

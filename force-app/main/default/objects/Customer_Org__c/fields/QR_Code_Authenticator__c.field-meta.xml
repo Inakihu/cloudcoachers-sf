@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QR_Code_Authenticator__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Código QR para el plugin del authenticator: https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai/related</inlineHelpText>
+    <label>QR_Code Authenticator</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>50</visibleLines>
+</CustomField>

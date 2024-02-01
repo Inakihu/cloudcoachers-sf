@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rellenar_Other_type_of_profile</fullName>
+    <active>true</active>
+    <description>Rellenar Other type of profile si Type of profile es Others</description>
+    <errorConditionFormula>AND(INCLUDES( Type_of_profile__c , &quot;Other&quot;),  Other_type_of_profile__c = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Other_type_of_profile__c</errorDisplayField>
+    <errorMessage>Se debe de rellenar el campo &quot;Other type of profile&quot; si &quot;Type of profile&quot; es Other</errorMessage>
+</ValidationRule>

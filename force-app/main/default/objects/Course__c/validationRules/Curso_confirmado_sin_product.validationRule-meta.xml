@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Curso_confirmado_sin_product</fullName>
+    <active>true</active>
+    <description>No se puede confirmar un curso si no está seleccionado el Producto del curso</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Confirmed&quot;)   &amp;&amp;   (  ISBLANK(  Course_Product__c ) )</errorConditionFormula>
+    <errorDisplayField>Course_Product__c</errorDisplayField>
+    <errorMessage>You need to select the course product for this course.</errorMessage>
+</ValidationRule>

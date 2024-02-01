@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_not_null_if_is_Training_project</fullName>
+    <active>true</active>
+    <errorConditionFormula>ProjectId__r.Name = &apos;Training&apos; &amp;&amp; CourseId__c = null</errorConditionFormula>
+    <errorDisplayField>CourseId__c</errorDisplayField>
+    <errorMessage>If the project is &apos;Training&apos;, the course is required.</errorMessage>
+</ValidationRule>

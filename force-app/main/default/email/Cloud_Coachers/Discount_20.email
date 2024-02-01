@@ -1,0 +1,10 @@
+Hola Fernando
+
+tengo esa oportunidad "{!Opportunity.Name}" del cliente "{!Opportunity.Account}" con un importe {!Opportunity.Amount} de y un descuento de {!Opportunity.Discount__c}.
+
+Te dejo acceso a la oportunidad: {!Opportunity.Link}
+
+¿Cómo ves su aprobación?
+
+Un saludo
+{!Opportunity.OwnerFullName}

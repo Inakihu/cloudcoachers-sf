@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QR_Code_picture__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Insert the link to the picture file in Drive</inlineHelpText>
+    <label>QR Code picture</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

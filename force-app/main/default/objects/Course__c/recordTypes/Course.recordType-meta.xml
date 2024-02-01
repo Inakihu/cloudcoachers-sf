@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course</fullName>
+    <active>true</active>
+    <description>Curso de formación</description>
+    <label>Course</label>
+    <picklistValues>
+        <picklist>Course_Subject__c</picklist>
+        <values>
+            <fullName>AWS - Amazon Web Services Fundamentals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2B Commerce Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2B Commerce Dev</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bootcamp Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datorama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Einstein Recommendations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ejercicio Práctico Salesforce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Professional Cloud Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heroku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lightning Web Component</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud AMPscript</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Email %2B Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Personalization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pardot Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pardot Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Data Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Developer I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Developer II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Identity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Lifecycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF Sharing and Visibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Cloud Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce ADM and DEV Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Advanced Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Community Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Customer Data Platform %28CDP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Einstein Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Field Service Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Platform App Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Platform Bootcamp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Platform Bootcamp Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Wave Analitics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Cloud Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Usuario Final Salesforce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Course_Type__c</picklist>
+        <values>
+            <fullName>Calendar Course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Ad hoc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISDI Hands-on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISDI Trailhead</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Cloud Coachers Madrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Schedule__c</picklist>
+        <values>
+            <fullName>10%3A00h - 14%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A00h - 14%3A30h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A00h - 15%3A30h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13%2E00h - 16%2E00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14%2E30h - 18%2E30h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14%3A00 - 18%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14%3A00h - 20%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A00h - 18%2E45h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A00h - 19%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A00h - 20%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A00h - 21%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A30h - 18%3A30h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A30h - 19%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A30h - 19%3A15h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16%3A00h - 18%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16%3A00h - 19%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16%3A00h - 20%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16%3A30h - 20%3A30h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17%3A00h - 19%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17%3A00h - 20%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17%3A00h - 20%3A30h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17%3A00h - 21%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17%3A00h - 22%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17%3A30h - 21%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18%3A00h - 22%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19%3A00h a-22%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A00h - 12%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A00h - 13%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A00h - 14%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A00h - 15%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A00h - 16%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A00h - 17%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A00h - 18%3A00h</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L-J %288%3A30h-15%3A00h%29 %2F V %288%3A30-12%3A30%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L-J 18%3A00 a 20%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finished</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not assigned</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registration Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>false</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wordpress_Integration_Status__c</picklist>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resend</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

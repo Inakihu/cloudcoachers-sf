@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubType__c</fullName>
+    <externalId>false</externalId>
+    <label>SubType</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Definición</fullName>
+                <default>false</default>
+                <label>Definición</label>
+            </value>
+            <value>
+                <fullName>Prueba de concepto</fullName>
+                <default>false</default>
+                <label>Prueba de concepto</label>
+            </value>
+            <value>
+                <fullName>Unit Test</fullName>
+                <default>false</default>
+                <label>Unit Test</label>
+            </value>
+            <value>
+                <fullName>Pruebas</fullName>
+                <default>false</default>
+                <label>Pruebas</label>
+            </value>
+            <value>
+                <fullName>Definición Test Scripts</fullName>
+                <default>false</default>
+                <label>Definición Test Scripts</label>
+            </value>
+            <value>
+                <fullName>Ejecución Test Scripts</fullName>
+                <default>false</default>
+                <label>Ejecución Test Scripts</label>
+            </value>
+            <value>
+                <fullName>Soporte pruebas del cliente</fullName>
+                <default>false</default>
+                <label>Soporte pruebas del cliente</label>
+            </value>
+            <value>
+                <fullName>Incidencias post-producción</fullName>
+                <default>false</default>
+                <label>Incidencias post-producción</label>
+            </value>
+            <value>
+                <fullName>Resolución de dudas</fullName>
+                <default>false</default>
+                <label>Resolución de dudas</label>
+            </value>
+            <value>
+                <fullName>Soporte</fullName>
+                <default>false</default>
+                <label>Soporte</label>
+            </value>
+            <value>
+                <fullName>Llamadas</fullName>
+                <default>false</default>
+                <label>Llamadas</label>
+            </value>
+            <value>
+                <fullName>Dudas del cliente</fullName>
+                <default>false</default>
+                <label>Dudas del cliente</label>
+            </value>
+            <value>
+                <fullName>Dudas</fullName>
+                <default>false</default>
+                <label>Dudas</label>
+            </value>
+            <value>
+                <fullName>Solicitud de información</fullName>
+                <default>false</default>
+                <label>Solicitud de información</label>
+            </value>
+            <value>
+                <fullName>Migración a sandbox</fullName>
+                <default>false</default>
+                <label>Migración a sandbox</label>
+            </value>
+            <value>
+                <fullName>Migración a producción</fullName>
+                <default>false</default>
+                <label>Migración a producción</label>
+            </value>
+            <value>
+                <fullName>Calidad de datos</fullName>
+                <default>false</default>
+                <label>Calidad de datos</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Desarrollo</controllingFieldValue>
+            <valueName>Definición</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desarrollo</controllingFieldValue>
+            <valueName>Prueba de concepto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desarrollo</controllingFieldValue>
+            <valueName>Unit Test</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desarrollo</controllingFieldValue>
+            <valueName>Pruebas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>Definición Test Scripts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>Ejecución Test Scripts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>Soporte pruebas del cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mantenimiento</controllingFieldValue>
+            <valueName>Incidencias post-producción</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mantenimiento</controllingFieldValue>
+            <valueName>Resolución de dudas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mantenimiento</controllingFieldValue>
+            <valueName>Soporte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión de proyecto</controllingFieldValue>
+            <valueName>Llamadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión de proyecto</controllingFieldValue>
+            <valueName>Dudas del cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión de proyecto</controllingFieldValue>
+            <valueName>Dudas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión de proyecto</controllingFieldValue>
+            <valueName>Solicitud de información</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migración de datos</controllingFieldValue>
+            <valueName>Migración a sandbox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migración de datos</controllingFieldValue>
+            <valueName>Migración a producción</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migración de datos</controllingFieldValue>
+            <valueName>Calidad de datos</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

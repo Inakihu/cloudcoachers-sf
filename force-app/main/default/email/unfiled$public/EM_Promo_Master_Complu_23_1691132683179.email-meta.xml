@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template para promocionar Master CC + Complutense</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EM_Promo_Master_Complu_23</name>
+    <pageDevName>EM_Promo_Master_Complu_23</pageDevName>
+    <style>none</style>
+    <subject>Descubre el Máster de Cloud Coachers y la Universidad Complutense de Madrid</subject>
+    <textOnly>Hola, {{{Recipient.FirstName}}}, 
+
+¿Quieres conocer más sobre el apasionante mundo de las tecnologías cloud? 
+
+Desde Cloud Coachers nos complace anunciar que por segundo año consecutivo en noviembre comenzará nuestro Máster Intelligent Marketing y Procesos Comerciales sobre Plataformas Clouden colaboración con la Universidad Complutense de Madrid.
+
+¿Qué puedes esperar?
+
+ - Descubrir las bases del funcionamiento de lossistemas Cloud CRMcon SalesForceen el centro. 
+ - Conocer cómo automatizar tus procesos de Marketing,contact center y procesos comerciales en la plataforma SalesForce. 
+ - Cómo gestionar de forma eficiente tu base de datos de clientes. 
+ - Aprender a analizar y estudiar a tus clientes con el apoyo de la inteligencia artificial. 
+
+¿Cuándo? 
+
+El programa dará comienzo el3 de noviembre,en formato tanto híbrido como presencial en horario de tarde (16:00 h a 20:00 h).
+
+¿Quieres saber más?Pincha aquí &lt; https://bit.ly/3PH5SNo &gt; y solicita más información. ¡Sumérgete en el mundo de SalesForce y las tecnologías Cloud y conviértete en el profesional del futuro!
+
+Quiero más información &lt; https://bit.ly/3PH5SNo &gt; 
+
+No te quedes sin tu plaza ¡Te esperamos! 
+
+© Cloud Coachers S.L. Loma de los Bailanderos 8, 28023, Madrid (España).
+
+Todos los derechos reservados.
+
+Este mensaje ha sido enviado a {{{Recipient.Email}}} por un sistema automático.
+
+Conoce nuestra política de privacidad &lt; https://www.cloudcoachers.com/politica-de-privacidad/ &gt; 
+
+Para contactar con Cloud Coachers puedes dirigirte a marketing@cloudcoachers.com &lt; mailto:marketing@cloudcoachers.com &gt; .
+
+Unsubscribe &lt;  {{{Unsubscribe}}}  &gt; | Centro de preferencias &lt;  {{{EmailPreferenceCenter}}}  &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

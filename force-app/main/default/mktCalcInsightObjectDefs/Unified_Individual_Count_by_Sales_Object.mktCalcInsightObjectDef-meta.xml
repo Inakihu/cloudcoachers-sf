@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktCalcInsightObjectDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <creationType>Custom</creationType>
+    <expression>SELECT UnifiedIndividual__dlm.ssot__Id__c AS Customer_Id__c ,approx_count_distinct(iil.Contact_Id__c) AS Contact_Count__c ,approx_count_distinct(iil.Lead_Id__c) AS Lead_Count__c ,approx_count_distinct(iil.ssot__AccountId__c) AS Account_Contact_Count__c ,approx_count_distinct(iil.ssot__DataSourceId__c) AS
+Salesforce_Org_Count__c
+FROM UnifiedIndividual__dlm
+/* The sub-query is required to perform case statements prior to aggregating */
+LEFT JOIN (
+SELECT IndividualIdentityLink__dlm.UnifiedRecordId__c AS UnifiedRecordId__c
+,IndividualIdentityLink__dlm.SourceRecordId__c AS SourceRecordId__c
+,IndividualIdentityLink__dlm.ssot__DataSourceId__c AS ssot__DataSourceId__c
+,CASE
+WHEN IndividualIdentityLink__dlm.ssot__DataSourceObjectId__c =
+&apos;Contact&apos;
+THEN IndividualIdentityLink__dlm.SourceRecordId__c ELSE NULL
+END Contact_Id__c ,CASE
+WHEN IndividualIdentityLink__dlm.ssot__DataSourceObjectId__c =
+THEN IndividualIdentityLink__dlm.SourceRecordId__c ELSE NULL
+&apos;Lead&apos;
+FROM IndividualIdentityLink__dlm LEFT JOIN (
+SELECT DISTINCT ssot__AccountContact__dlm.ssot__IndividualId__c AS ssot__IndividualId__c
+,ssot__AccountContact__dlm.ssot__AccountId__c AS ssot__AccountId__c
+FROM ssot__AccountContact__dlm
+) AccountContact ON IndividualIdentityLink__dlm.SourceRecordId__c = AccountContact.ssot__IndividualId__c
+WHERE IndividualIdentityLink__dlm.ssot__DataSourceId__c LIKE &apos;Salesforce_00D%&apos;
+) iil
+/* &quot;Data Source ID like Salesforce_00D%&quot; identifies Salesforce CRM sources. 00D is the prefix for the Org ID object type.
+* This is optional but it adds greater certainty that this is a Salesforce Org source ID from the connector.*/
+ON UnifiedIndividual__dlm.ssot__Id__c = iil.UnifiedRecordId__c GROUP BY Customer_Id__c</expression>
+    <masterLabel>Unified Individual Count by Sales Object</masterLabel>
+</MktCalcInsightObjectDef>

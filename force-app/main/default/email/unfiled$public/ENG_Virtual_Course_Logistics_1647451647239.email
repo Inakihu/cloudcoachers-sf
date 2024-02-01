@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table cellpadding="0" cellspacing="0">
+	
+		<tr>
+			<td>
+			<table cellpadding="0" cellspacing="0">
+				
+					<tr>
+						<td valign="top">
+						<table cellpadding="0" cellspacing="0" width="100%">
+							
+								<tr>
+									<td>Hi {{{Recipient.FirstName}}}!<br />
+									<br />
+									I am {{{Course_Attendance__c.Course_Instructor_Name__c}}} and I will be your instructor in the next Salesforce Training course.&nbsp;<br />
+									<br />
+									Your course&nbsp;<b>Salesforce Platform Essentials&nbsp;</b>will start next <b>21/03/2022</b>, from <b>14:00h to 18.00h CET, </b>and will finish on 29/03/2022.&nbsp;<br />
+									<br />
+									The course will be virtually delivered through Google Meet. When the time comes, you can access via this link:&nbsp;<br />
+									<br />
+									<a href="https://cloudcoachers.lightning.force.com/lightning/r/Course_Attendance__c/a0J08000017iykAEAQ/meet.google.com/yce-hvzg-yym">Open Google Meet</a><br />
+									<br />
+									I recommend you that you have either two screens or a large monitor, so that you can see the instructor screen as well as your own. You can also use a tablet for accessing the Meet and do the exercise on your computer.&nbsp;<br />
+									<br />
+									If you have any problem, don't hesitate to contact me.&nbsp;<br />
+									<br />
+									Best regards,</td>
+								</tr>
+							
+						</table>
+
+						<table cellpadding="0" cellspacing="0" width="100%">
+							
+								<tr>
+									<td><br />
+									<br />
+									<b>Paula Quirós&nbsp;</b><br />
+									<i>Cloud Coach</i><br />
+									<a href="mailto:pquiros@cloudcoachers.com">pquiros@cloudcoachers.com&nbsp;</a><br />
+									+34 656 609 537&nbsp;</td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+<br />
+<br />
+Aviso sobre Confidencialidad: Este mensaje y sus anexos son confidenciales y pueden estar protegidos por disposiciones legales.<br />
+Para más información sobre la Política de Privacidad de Cloud Coachers S.L.:<br />
+https://www.cloudcoachers.com/politica-de-privacidad/
+</body></html>

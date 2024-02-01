@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holidays_2022</fullName>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>NAME</columns>
+    <columns>Total_Holidays__c</columns>
+    <columns>Available_Days__c</columns>
+    <columns>Approved_Days__c</columns>
+    <columns>Not_Yet_Approved_Days__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Year__c</field>
+        <operation>equals</operation>
+        <value>2022</value>
+    </filters>
+    <label>Holidays 2022</label>
+    <sharedTo>
+        <group>Managers_MK_SF</group>
+        <group>PartnersCloudCoachers</group>
+    </sharedTo>
+</ListView>

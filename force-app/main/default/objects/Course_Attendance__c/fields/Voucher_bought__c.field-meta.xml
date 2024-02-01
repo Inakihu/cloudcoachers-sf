@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Voucher_bought__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to know if the attendant has the right to be sent the cert voucher or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mark if this attendant has acquired vouchers with the training.</inlineHelpText>
+    <label>Voucher bought</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

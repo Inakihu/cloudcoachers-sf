@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_billable</fullName>
+    <active>true</active>
+    <errorConditionFormula>IsBillable__c = true &amp;&amp; (ProjectId__c = &apos;a3q1p000000kSaM&apos; || ProjectId__c = &apos;a3q1p000000kSo4&apos; || ProjectId__c = &apos;a3q1p000000kSag&apos;
+|| ProjectId__c = &apos;a3q1p000000kSaW&apos; || ProjectId__c = &apos;a3q1p000000kSnp&apos;)</errorConditionFormula>
+    <errorDisplayField>IsBillable__c</errorDisplayField>
+    <errorMessage>This project task is not billable.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Custom field</fullName>
+        <default>false</default>
+        <label>Custom field</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Custom object</fullName>
+        <default>false</default>
+        <label>Custom object</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Validation rule</fullName>
+        <default>false</default>
+        <label>Validation rule</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Page layout</fullName>
+        <default>false</default>
+        <label>Page layout</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automated process</fullName>
+        <default>false</default>
+        <label>Automated process</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Suggestion</fullName>
+        <default>false</default>
+        <label>Suggestion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

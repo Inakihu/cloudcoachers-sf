@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_CloudCoachers_Internal_projects</fullName>
+    <active>true</active>
+    <errorConditionFormula>AccountId__c != &apos;00124000010E7r9&apos; &amp;&amp;  ISPICKVAL(Type__c, &apos;Internal&apos;)</errorConditionFormula>
+    <errorDisplayField>Type__c</errorDisplayField>
+    <errorMessage>Not allowed Type &quot;Internal&quot; for clients projects</errorMessage>
+</ValidationRule>

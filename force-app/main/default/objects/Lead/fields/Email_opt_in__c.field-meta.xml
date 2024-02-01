@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_opt_in__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo que recoge el consentimiento para recibir emails comerciales</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Acepto recibir comunicaciones de Cloud Coachers. Me puedo dar de baja en cualquier momento.</inlineHelpText>
+    <label>Email opt-in</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

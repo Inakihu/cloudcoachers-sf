@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>AccountId__c</columns>
+    <columns>Occupation__c</columns>
+    <columns>ProjectLeadId__c</columns>
+    <columns>Type__c</columns>
+    <columns>Hours_Consumed__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Occupation__c</field>
+        <operation>equals</operation>
+        <value>Project</value>
+    </filters>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Plantilla para recordar que no se han reportado horas. Recordatorio 2</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Cloud_Coachers_Basic</letterhead>
+    <name>Sin reporte de horas - Recordatoria 2</name>
+    <style>freeForm</style>
+    <subject>¿{!pse__Missing_Timecard__c.pse__Resource__c} ha pasado algo? nos faltan reportes del {!pse__Missing_Timecard__c.pse__Start_Date__c}</subject>
+    <textOnly>Hola {!pse__Missing_Timecard__c.pse__Resource__c},
+
+estamos a viernes y seguimos sin tener registrado los tiempos de la semana del {!pse__Missing_Timecard__c.pse__Start_Date__c} al {!pse__Missing_Timecard__c.pse__End_Date__c}.
+
+Por favor realizarlo lo antes posible.
+
+Si has estado de vacación, esperamos que hayas descansado y estamos muy contentos de tenerte de vuelta. Comentarte que se debe rellenar el reporte de horas indicando el proyecto &quot;Paid Time Off&quot; en los días de vacaciones, por lo tanto ya sabes, lo puede hacer ahora mismo.
+Estamos mejoran los procesos para crear estos registros automáticamente, y agradecemos tu paciencia, pero por el momento es necesario que lo realices de forma manual para no recibir estas notificaciones.
+
+Gracias de antemano.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

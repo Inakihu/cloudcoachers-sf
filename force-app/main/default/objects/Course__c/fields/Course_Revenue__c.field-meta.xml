@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Revenue__c</fullName>
+    <externalId>false</externalId>
+    <label>Course Revenue</label>
+    <summarizedField>Course_Attendance__c.Amount_to_invoice__c</summarizedField>
+    <summaryForeignKey>Course_Attendance__c.Course__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

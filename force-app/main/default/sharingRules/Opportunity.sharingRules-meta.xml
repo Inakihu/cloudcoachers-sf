@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Managers_MK_SF</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Managers MK &amp; SF</label>
+        <sharedTo>
+            <group>Managers_MK_SF</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Project Opportunity,Training Opportunity</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>RRHH</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>RRHH</label>
+        <sharedTo>
+            <group>RRHH</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Recruiting Opportunity,Training Opportunity</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Sales</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sharing Sales</label>
+        <sharedTo>
+            <group>Sales_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CloseDate</field>
+            <operation>greaterThan</operation>
+            <value>1/1/2022</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Support Opportunity,Licensing Opportunity,Training Opportunity,Project Opportunity</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Training_Sales</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Training Sales</label>
+        <sharedTo>
+            <group>Sales_Training_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Training Opportunity</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Share_Tecnicos_with_Funcional</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Técnicos with Funcional</label>
+        <sharedTo>
+            <role>Manager_Funcional</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Manager_Tecnico</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

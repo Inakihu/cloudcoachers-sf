@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template para promocionar Webinar Developer 1 Septiembre 2023</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EM_WDEV1_TP1_sept_23</name>
+    <pageDevName>nete_a_nuestro_Webinar_Salesforce_Developer</pageDevName>
+    <style>none</style>
+    <subject>Únete a nuestro Webinar Salesforce Developer</subject>
+    <textOnly>¿Quieres conocer la Plataforma Force.comen sus elementos más importantes desde el punto de vista de un desarrollador de aplicaciones? 
+
+Si tu respuesta es sí, ¡este webinar es para ti! Nuestro experto, Kevin Martínez, compartirá las claves de la herramienta y durante este encuentro online podrás:
+
+ - Conocer cómodesarrollar aplicacionesde forma programática sobre la plataforma Force.com.
+ - Aprender a desarrollar aplicaciones con Apex y Visualforce.
+ - Entender el desarrollo de aplicaciones con Lightning components.
+ - Resolver tus dudas en la parte final de preguntas y respuestas.
+ - Ver una demo en directo.
+
+Me apunto &lt; https://bit.ly/3QQi1ln &gt; 
+
+¿Cuándo?
+
+El webinar se impartirá el 20 de septiembrea las 16:00 CTEy tendrá una duración aproximada de una hora.
+
+Bonus: obtendrás descuentoen cualquiera de los cursos relacionados si asistes a este evento online.*
+
+Ponente
+
+Kevin Martínez 
+
+Salesforce Developer, Desarrollador de aplicaciones para Salesforce con Apex y de Lightning web components.
+
+Esperamos que puedas unirte a nosotros en este evento virtual y aprovechar esta oportunidad para aprender y conectar con otros profesionales. ¡No te lo pierdas!
+
+© Cloud Coachers S.L. Loma de los Bailanderos 8, 28023, Madrid (España).
+
+Todos los derechos reservados.
+
+Este mensaje ha sido enviado a {{{Recipient.Email}}} por un sistema automático.
+
+Conoce nuestra política de privacidad &lt; https://www.cloudcoachers.com/politica-de-privacidad/ &gt; .
+
+Para contactar con Cloud Coachers puedes dirigirte a marketing@cloudcoachers.com &lt; mailto:marketing@cloudcoachers.com &gt; .
+
+Darse de baja &lt;  {{{Unsubscribe}}}  &gt; | Centro de preferencias &lt;  {{{EmailPreferenceCenter}}}  &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

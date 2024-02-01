@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template para promocionar Master CC + URJC</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EM_Promo_Master_URJC_23</name>
+    <pageDevName>EM_Promo_Master_Complu_232</pageDevName>
+    <style>none</style>
+    <subject>Descubre el Máster de la Universidad Rey Juan Carlos y Cloud Coachers</subject>
+    <textOnly>Hola, {{{Recipient.FirstName}}}, 
+
+¿Quieres iniciar una carrera profesional en una especialidad con las más altas tasas de empleabilidad? 
+
+Desde Cloud Coachers nos complace anunciar que en enero comenzará nuestro Máster en Procesos Comerciales y CRMen colaboración con la Universidad Rey Juan Carlos.
+
+¿Qué puedes esperar?
+
+ - Entender los procesos de gestión comercial de forma integral
+ - Cómo gestionar de forma eficiente tu base de datos de clientes. 
+ - Descubrir las bases del funcionamiento de lossistemas Cloud CRMcon SalesForceen el centro. 
+ - Conocer cómo automatizartus procesos comerciales en la plataforma SalesForce. 
+ - Aprender a analizar y estudiar a tus clientes con el apoyo de la inteligencia artificial. 
+ - Obtener una titulación de la URJC y 4 certificados oficiales de Salesforce
+
+¿Cuándo? 
+
+El programa dará comienzo el8 de enero,en formato presencial los viernes en horario de tarde (16:00 h a 20:00 h) y los sábados en horario de mañana (9:00h a 14:00h)
+
+¿Quieres saber más?Pincha aquí &lt; https://bit.ly/3PH5SNo &gt; y solicita más información. ¡Sumérgete en el mundo del CRM y SalesForce y conviértete en el profesional del futuro!
+
+Quiero más información &lt; https://bit.ly/3PH5SNo &gt; 
+
+No te quedes sin tu plaza ¡Te esperamos! 
+
+© Cloud Coachers S.L. Loma de los Bailanderos 8, 28023, Madrid (España).
+
+Todos los derechos reservados.
+
+Este mensaje ha sido enviado a {{{Recipient.Email}}} por un sistema automático.
+
+Conoce nuestra política de privacidad &lt; https://www.cloudcoachers.com/politica-de-privacidad/ &gt; 
+
+Para contactar con Cloud Coachers puedes dirigirte a marketing@cloudcoachers.com &lt; mailto:marketing@cloudcoachers.com &gt; .
+
+Unsubscribe &lt;  {{{Unsubscribe}}}  &gt; | Centro de preferencias &lt;  {{{EmailPreferenceCenter}}}  &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

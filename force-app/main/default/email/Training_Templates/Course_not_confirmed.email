@@ -1,0 +1,7 @@
+{!User.FirstName}, 
+
+Hay un curso en 7 días que no se ha confirmado. Recuerda que si no está confirmado, los emails a los alumnos no salen.
+
+{!Course__c.Link}
+
+Awesome Admin.

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Project</fullName>
+        <default>false</default>
+        <label>Project</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recruiting</fullName>
+        <default>false</default>
+        <label>Recruiting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Licensing</fullName>
+        <default>false</default>
+        <label>Licensing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training Ad hoc</fullName>
+        <default>false</default>
+        <label>Training Ad hoc</label>
+    </standardValue>
+</StandardValueSet>

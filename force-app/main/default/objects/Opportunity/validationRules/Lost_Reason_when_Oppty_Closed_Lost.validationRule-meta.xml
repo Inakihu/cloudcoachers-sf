@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Reason_when_Oppty_Closed_Lost</fullName>
+    <active>true</active>
+    <description>Lost Reason is required when an Opportunity is Lost</description>
+    <errorConditionFormula>AND (Account.RecordType.DeveloperName =&quot;Business_Account&quot;, ISPICKVAL( StageName , &quot;Closed Lost&quot;), TEXT(Lost_Reason__c) = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Lost_Reason__c</errorDisplayField>
+    <errorMessage>A Lost Reason is required when the opportunity is Closed Lost.</errorMessage>
+</ValidationRule>

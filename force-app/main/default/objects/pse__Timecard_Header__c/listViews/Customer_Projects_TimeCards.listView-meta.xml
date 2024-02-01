@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Projects_TimeCards</fullName>
+    <columns>NAME</columns>
+    <columns>pse__Project__c</columns>
+    <columns>pse__Assignment__c</columns>
+    <columns>pse__Resource__c</columns>
+    <columns>pse__Total_Hours__c</columns>
+    <columns>pse__Status__c</columns>
+    <columns>pse__End_Date__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>pse__Assignment__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>pse__Project__c</field>
+        <operation>notContain</operation>
+        <value>internal,marketing,sales,course,self,management,tools</value>
+    </filters>
+    <filters>
+        <field>pse__End_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <label>TimeCards without Assignments</label>
+</ListView>

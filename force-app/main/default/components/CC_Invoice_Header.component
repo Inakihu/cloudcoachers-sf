@@ -1,0 +1,31 @@
+<!--
+  @File Name          : CC_Invoice_Header.component
+  @Description        : 
+  @Author             : TXU - jmurdiain@cloudcoachers.com
+  @Group              : 
+  @Last Modified By   : TXU - jmurdiain@cloudcoachers.com
+  @Last Modified On   : 3/19/2020, 11:16:58 AM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    2/26/2020   TXU - jmurdiain@cloudcoachers.com     Initial Version
+-->
+<apex:component controller="CC_InvoiceDocument_CTR">
+    <apex:attribute name="invoiceId" type="Id" assignTo="{!idInvoice}" description=""/>
+    <table class="tableHeader" >
+        <tbody>
+            <tr style="height:29.5mm; width:100%; ">
+                <td style="width:50%; text-align: left;">
+                    <apex:image url="{!$Resource.CC_Logo_Vertical}" styleClass="imagenLogo" />
+                </td>
+                <td style="width:50%; vertical-align:bottom; font-size: 28px;">
+                    <div style="width:100%;margin-bottom: 8px;">
+                        <apex:outputText value="{!$Label.CC_Factura}"/>
+                        <span style="font-size:21px;">
+                            <b><apex:outputText value="{!IF(invoice.Status__c=='Completed',invoice.Invoice_Number__c, invoice.Status__c)}" /></b>
+                        </span> 
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</apex:component>

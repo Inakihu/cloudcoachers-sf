@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requested_Days__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Created, Pending Approval, Approved Statuses (No Rejected Statuses)</inlineHelpText>
+    <label>Requested Days</label>
+    <summarizedField>Holiday_Request__c.Requested_Days__c</summarizedField>
+    <summaryFilterItems>
+        <field>Holiday_Request__c.Holiday_Req_Status__c</field>
+        <operation>equals</operation>
+        <value>Created, Pending Approval, Approved</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Holiday_Request__c.Annual_Holiday__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

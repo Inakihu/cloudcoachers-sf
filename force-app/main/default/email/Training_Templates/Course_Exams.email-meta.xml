@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Envío de exámenes del curso</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Course Exams</name>
+    <style>none</style>
+    <subject>🎓 Preguntas tipo de {!Course__c.Course_Product__c}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
